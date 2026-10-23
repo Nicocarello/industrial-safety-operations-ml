@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechnoStamp Industries | Unified Decision Science & ML Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --primary: #00A86B;
+      --primary-dark: #067246;
+      --primary-light: #E8F8F2;
+      --navy: #0F172A;
+      --navy-light: #1E293B;
+      --slate: #64748B;
+      --slate-light: #94A3B8;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --border: #E2E8F0;
+      --alert-red: #E11D48;
+      --alert-bg: #FFF1F2;
+      --warn-amber: #D97706;
+      --warn-bg: #FEF3C7;
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--navy);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.95);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand { display: flex; align-items: center; gap: 1rem; }
+    .brand-logo {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.6rem; font-weight: 700;
+      color: var(--primary); text-decoration: none;
+    }
+    .brand-logo span {
+      background: var(--primary); color: white;
+      padding: 0.2rem 0.6rem; border-radius: 8px;
+    }
+    .brand-divider { height: 28px; width: 2px; background: var(--border); }
+    .brand-subtitle { font-size: 0.88rem; color: var(--slate); font-weight: 500; }
+
+    .badge-directorio {
+      background: var(--navy); color: #FFFFFF;
+      font-size: 0.75rem; font-weight: 700;
+      padding: 0.4rem 0.9rem; border-radius: 9999px;
+      text-transform: uppercase; letter-spacing: 0.05em;
+    }
+
+    .main-container { max-width: 1400px; margin: 2rem auto; padding: 0 2rem; }
+
+    .hero-banner {
+      background: linear-gradient(135deg, var(--navy) 0%, #1E3A8A 100%);
+      color: white; padding: 2.5rem; border-radius: 16px;
+      margin-bottom: 2rem; position: relative; overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-banner::after {
+      content: ''; position: absolute; right: -50px; bottom: -50px;
+      width: 260px; height: 260px;
+      background: radial-gradient(circle, rgba(0, 168, 107, 0.3) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-kicker {
+      color: var(--primary); font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; font-size: 0.82rem; margin-bottom: 0.5rem;
+    }
+    .hero-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2.2rem; font-weight: 700; line-height: 1.2; margin-bottom: 1rem;
+    }
+    .hero-description {
+      font-size: 1.05rem; color: #CBD5E1; max-width: 880px; line-height: 1.6;
+    }
+
+    /* KPI CARDS */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem; margin-bottom: 2.5rem;
+    }
+    .kpi-card {
+      background: var(--card-bg); border-radius: 14px; padding: 1.5rem;
+      border: 1px solid var(--border); box-shadow: var(--shadow-sm);
+      transition: all 0.2s ease;
+    }
+    .kpi-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--primary); }
+    .kpi-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; }
+    .kpi-label { font-size: 0.82rem; font-weight: 700; color: var(--slate); text-transform: uppercase; letter-spacing: 0.04em; }
+    .kpi-badge { font-size: 0.72rem; font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 6px; }
+    .badge-danger { background: var(--alert-bg); color: var(--alert-red); }
+    .badge-warning { background: var(--warn-bg); color: var(--warn-amber); }
+    .badge-success { background: var(--primary-light); color: var(--primary-dark); }
+    .kpi-value { font-family: 'Space Grotesk', sans-serif; font-size: 2.1rem; font-weight: 700; color: var(--navy); line-height: 1; margin-bottom: 0.5rem; }
+    .kpi-subtext { font-size: 0.82rem; color: var(--slate); line-height: 1.4; }
+
+    /* NAVIGATION TABS */
+    .nav-tabs {
+      display: flex; gap: 0.5rem; border-bottom: 2px solid var(--border);
+      margin-bottom: 2rem; overflow-x: auto; padding-bottom: 4px;
+    }
+    .tab-btn {
+      background: none; border: none; padding: 0.8rem 1.4rem;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-size: 0.95rem; font-weight: 600;
+      color: var(--slate); cursor: pointer; border-radius: 8px 8px 0 0;
+      transition: all 0.2s ease; white-space: nowrap;
+    }
+    .tab-btn:hover { color: var(--navy); background: rgba(0, 168, 107, 0.05); }
+    .tab-btn.active { color: var(--primary); background: white; border-bottom: 3px solid var(--primary); }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; animation: fadeIn 0.3s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* PANELS */
+    .content-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.75rem; margin-bottom: 2rem; }
+    @media (max-width: 1024px) { .content-grid { grid-template-columns: 1fr; } }
+    .chart-panel { background: var(--card-bg); border-radius: 14px; padding: 1.75rem; border: 1px solid var(--border); box-shadow: var(--shadow-sm); }
+    .panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; }
+    .panel-title { font-size: 1.15rem; font-weight: 700; color: var(--navy); }
+    .panel-subtitle { font-size: 0.85rem; color: var(--slate); }
+    .chart-container { position: relative; height: 340px; width: 100%; }
+
+    .insights-panel {
+      background: var(--card-bg); border-radius: 14px; padding: 1.75rem;
+      border: 1px solid var(--border); box-shadow: var(--shadow-sm);
+      display: flex; flex-direction: column; gap: 1.1rem;
+    }
+    .insight-item { padding: 1rem 1.2rem; border-radius: 10px; background: var(--bg); border-left: 4px solid var(--primary); }
+    .insight-item.danger { border-left-color: var(--alert-red); background: var(--alert-bg); }
+    .insight-item.warning { border-left-color: var(--warn-amber); background: var(--warn-bg); }
+    .insight-title { font-weight: 700; font-size: 0.95rem; color: var(--navy); margin-bottom: 0.35rem; }
+    .insight-desc { font-size: 0.85rem; color: #334155; line-height: 1.5; }
+
+    /* TABLES */
+    .table-container { background: white; border-radius: 12px; border: 1px solid var(--border); overflow: hidden; margin-top: 1rem; }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.88rem; }
+    th { background: var(--bg); padding: 0.85rem 1rem; font-weight: 700; color: var(--navy); border-bottom: 1px solid var(--border); }
+    td { padding: 0.85rem 1rem; border-bottom: 1px solid var(--border); color: #334155; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #F1F5F9; }
+    .tag-critical { background: #FFE4E6; color: #BE123C; font-weight: 700; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; }
+
+    /* SIMULATOR */
+    .simulator-card {
+      background: white; border-radius: 14px; padding: 2rem; border: 2px solid var(--primary);
+      margin-bottom: 2rem; box-shadow: var(--shadow-md);
+    }
+    .sim-slider-row { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 1.5rem 0; }
+    .sim-slider-group label { display: flex; justify-content: space-between; font-weight: 700; margin-bottom: 0.5rem; font-size: 0.95rem; }
+    .sim-slider-group input[type="range"] { width: 100%; height: 8px; border-radius: 4px; background: var(--border); outline: none; accent-color: var(--primary); }
+    .sim-results {
+      background: var(--primary-light); border-radius: 12px; padding: 1.5rem;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; text-align: center;
+    }
+    .sim-res-val { font-family: 'Space Grotesk', sans-serif; font-size: 2.1rem; font-weight: 700; color: var(--primary-dark); }
+    .sim-res-lbl { font-size: 0.82rem; font-weight: 600; color: var(--navy); text-transform: uppercase; }
+
+    /* TIMELINE */
+    .timeline-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    @media (max-width: 900px) { .timeline-grid { grid-template-columns: 1fr; } }
+    .timeline-col { background: white; border-radius: 14px; padding: 1.75rem; border: 1px solid var(--border); box-shadow: var(--shadow-sm); }
+    .timeline-header { padding-bottom: 1rem; margin-bottom: 1.25rem; border-bottom: 2px solid var(--border); }
+    .timeline-phase { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--primary); margin-bottom: 0.25rem; }
+    .timeline-title { font-size: 1.2rem; font-weight: 700; color: var(--navy); }
+    .action-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+    .action-item { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.88rem; color: #334155; line-height: 1.45; }
+    .action-icon {
+      background: var(--primary-light); color: var(--primary-dark); width: 24px; height: 24px;
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 0.75rem; flex-shrink: 0; margin-top: 2px;
+    }
+    footer {
+      max-width: 1400px; margin: 3rem auto 2rem; padding: 1.5rem 2rem;
+      text-align: center; border-top: 1px solid var(--border); color: var(--slate); font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <a href="#" class="brand-logo">People<span>Analytics</span></a>
+        <div class="brand-divider"></div>
+        <div>
+          <div style="font-weight: 700; font-size: 1.05rem; color: var(--navy);">TechnoStamp Industries</div>
+          <div class="brand-subtitle">Unified Decision Science & Machine Learning Platform | Directorio & CEO</div>
+        </div>
+      </div>
+      <div>
+        <span class="badge-directorio">Comité Estratégico Ejecutivo</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main-container">
+
+    <!-- HERO BANNER -->
+    <section class="hero-banner">
+      <div class="hero-kicker">Diagnóstico Integral & Sistema Predictivo de Operaciones</div>
+      <h1 class="hero-title">Del Dato a la Estrategia: Transformación Cuantitativa de TechnoStamp</h1>
+      <p class="hero-description">
+        Consolidación unificada de 9.733 registros mensuales, 8.705 eventos de RRHH y 729 capacitaciones. Se integran auditoría forense de calidad de datos, pruebas econométricas (ANOVA, t-test, Chi-cuadrado), algoritmos de Machine Learning (LightGBM) y cuantificación directa de impacto en P&L.
+      </p>
+    </section>
+
+    <!-- EXECUTIVE KPI CARDS -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">Crisis Turno Noche</span>
+          <span class="kpi-badge badge-danger">5.3x Riesgo / +101% Scrap</span>
+        </div>
+        <div class="kpi-value">3.60% / 11.8</div>
+        <div class="kpi-subtext">Concentra el 56% de accidentes y doble de scrap. 0 supervisores en planta de noche.</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">Abismo de Jubilaciones</span>
+          <span class="kpi-badge badge-danger">80% en Riesgo</span>
+        </div>
+        <div class="kpi-value">4 de 5</div>
+        <div class="kpi-subtext">Puestos críticos se retiran en &le; 12 meses. Logística pierde el 100% de jefaturas; Setup Estampado en riesgo.</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">Fuga & Reclutamiento</span>
+          <span class="kpi-badge badge-warning">67d Time-to-Fill</span>
+        </div>
+        <div class="kpi-value">34.8% Bajas</div>
+        <div class="kpi-subtext">En Mantenimiento Eléctrico. 4 supervisores concentran el 60-80% de la rotación por sobrecarga.</div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-top">
+          <span class="kpi-label">Modelo Predictivo ML</span>
+          <span class="kpi-badge badge-success">ROC-AUC 0.88</span>
+        </div>
+        <div class="kpi-value">83.3%</div>
+        <div class="kpi-subtext">De accidentes futuros capturados interviniendo preventivamente solo sobre el top 20% de mayor score.</div>
+      </div>
+    </div>
+
+    <!-- NAVIGATION TABS -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('tab-noche')">1. Turno Noche & Crisis Scrap</button>
+      <button class="tab-btn" onclick="switchTab('tab-sucesion')">2. Sucesión & Auditoría Legal</button>
+      <button class="tab-btn" onclick="switchTab('tab-horas-extra')">3. Horas Extra & Managers Tóxicos</button>
+      <button class="tab-btn" onclick="switchTab('tab-seguridad')">4. Seguridad, Fatiga & Modelo ML</button>
+      <button class="tab-btn" onclick="switchTab('tab-genero')">5. Género, Mérito & Salarios</button>
+      <button class="tab-btn" onclick="switchTab('tab-simulador')">💰 Calculadora EBITDA (+$363M)</button>
+      <button class="tab-btn" onclick="switchTab('tab-plan')">🚀 Plan de Acción 30-60-90</button>
+    </nav>
+
+    <!-- TAB 1: TURNO NOCHE & SCRAP CRUNCH -->
+    <div id="tab-noche" class="tab-content active">
+      <div class="content-grid">
+        <div class="chart-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Scrap y Accidentes por Turno Operativo</h2>
+              <div class="panel-subtitle">Comparativa estadística verificada (ANOVA F = 821.12, p &lt; 0.0001)</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartShift"></canvas>
+          </div>
+        </div>
+
+        <div class="insights-panel">
+          <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--navy);">Diagnóstico Clave de Operaciones</h3>
+          
+          <div class="insight-item danger">
+            <div class="insight-title">Disparo de Scrap (+101% vs Diurno)</div>
+            <div class="insight-desc">
+              Turno Noche promedia <strong>3.60% de scrap</strong> frente a 1.79% en Tarde y 1.89% en Mañana. Genera <strong>1.756,9 días perdidos por scrap (71.4% de toda la fábrica)</strong> y más de 18.600 piezas de descarte en exceso.
+            </div>
+          </div>
+
+          <div class="insight-item danger">
+            <div class="insight-title">5.3x Mayor Tasa de Accidentes Graves</div>
+            <div class="insight-desc">
+              Con 11.77 incidentes cada 1.000 empleado-mes, Turno Noche concentra el 55.6% de los accidentes formales (25 de 45) y <strong>5 de los 6 accidentes graves (83.3%)</strong>.
+            </div>
+          </div>
+
+          <div class="insight-item warning">
+            <div class="insight-title">La Crisis de Invierno 2024 y el Despido del Plant Manager</div>
+            <div class="insight-desc">
+              En junio-agosto 2024, Estampado sufrió un salto de scrap al 4.78% (Setup 5.45%), culminando en el despido del Plant Manager (Damián Barbieri, ID 1001) en diciembre de 2024. <strong>El cargo de Gerente de Planta sigue VACANTE en mayo 2025</strong>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: ABISMO DE SUCESIÓN & AUDITORÍA LEGAL -->
+    <div id="tab-sucesion" class="tab-content">
+      <div class="content-grid">
+        <div class="chart-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Matriz de Jubilación en Puestos Críticos</h2>
+              <div class="panel-subtitle">Cálculo corregido según legislación argentina (60 años Mujeres / 65 Hombres)</div>
+            </div>
+          </div>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Empleado</th>
+                  <th>Área</th>
+                  <th>Puesto</th>
+                  <th>Nivel</th>
+                  <th>Jubilación ERP</th>
+                  <th>Status Legal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Teresa Rodríguez (64a)</strong></td>
+                  <td>Estampado</td>
+                  <td>Técnico Setup</td>
+                  <td>1</td>
+                  <td>6 meses</td>
+                  <td><span class="tag-critical">EDAD CUMPLIDA (60a)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Ana Beatriz Ortiz (64a)</strong></td>
+                  <td>Logística</td>
+                  <td>Supervisor Logística</td>
+                  <td>3</td>
+                  <td>6 meses</td>
+                  <td><span class="tag-critical">EDAD CUMPLIDA (60a)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Sergio Reyes (63a)</strong></td>
+                  <td>Logística</td>
+                  <td>Team Leader Logística</td>
+                  <td>2</td>
+                  <td>9 meses</td>
+                  <td><span class="tag-critical">RETIRO INMINENTE</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Miguel A. De Luca (62a)</strong></td>
+                  <td>Logística</td>
+                  <td>Team Leader Logística</td>
+                  <td>2</td>
+                  <td>12 meses</td>
+                  <td><span class="tag-critical">RETIRO 12 MESES</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div style="margin-top: 1.25rem; padding: 1rem; background: var(--alert-bg); border-radius: 8px; font-size: 0.85rem; color: #991B1B;">
+            <strong>Hallazgo Forense de Datos:</strong> El ERP calculó meses_hasta_jubilacion con fórmula fija a 65 años. En mayo 2025, <em>Paola Marino (60 años)</em> se jubiló cuando el sistema decía que le faltaban 55 meses. Teresa Rodríguez tiene edad vencida y puede cesar en cualquier momento sin relevo.
+          </div>
+        </div>
+
+        <div class="insights-panel">
+          <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--navy);">Vulnerabilidad Sistémica de Continuidad</h3>
+
+          <div class="insight-item danger">
+            <div class="insight-title">Decapitación del 100% en Logística</div>
+            <div class="insight-desc">
+              Toda la cadena de mando del almacén y expedición (1 Supervisora y 2 Team Leaders) se retira en un lapso de 6 a 12 meses. Sin intervención inmediata, el abastecimiento de bobinas a prensas se paralizará.
+            </div>
+          </div>
+
+          <div class="insight-item danger">
+            <div class="insight-title">Omisión Crítica de RRHH en Estampado</div>
+            <div class="insight-desc">
+              RRHH alertó sobre los 3 líderes de Logística en eventos_rrhh, pero omitió a <strong>Teresa Rodríguez</strong> (11.3 años de experiencia en Setup). El conocimiento empírico de ajuste de matrices es irremplazable en el mercado abierto.
+            </div>
+          </div>
+
+          <div class="insight-item warning">
+            <div class="insight-title">Falsas Jubilaciones en el ERP</div>
+            <div class="insight-desc">
+              Detectamos <strong>6 empleados de 26 a 45 años rotulados erróneamente como 'Jubilación'</strong> en las bajas históricas. Se requiere una auditoría inmediata del maestro de desvinculaciones.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: HORAS EXTRA & MANAGERS TÓXICOS -->
+    <div id="tab-horas-extra" class="tab-content">
+      <div class="content-grid">
+        <div class="chart-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Rotación de Personal y Cuellos de Botella de Selección</h2>
+              <div class="panel-subtitle">Time to Fill por departamento y correlación con renuncias voluntarias</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartOvertime"></canvas>
+          </div>
+        </div>
+
+        <div class="insights-panel">
+          <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--navy);">La Fuga de Talento y sus Drivers</h3>
+
+          <div class="insight-item danger">
+            <div class="insight-title">Mantenimiento Eléctrico: 34.8% de Bajas</div>
+            <div class="insight-desc">
+              Perdió a 16 de sus 46 técnicos (11 por renuncia voluntaria). Tienen una carga de hasta <strong>33.4 horas extra/mes</strong> porque RRHH demora <strong>66.6 días en cubrir vacantes eléctricas</strong> (y 70.9 días en mecánicas).
+            </div>
+          </div>
+
+          <div class="insight-item danger">
+            <div class="insight-title">El 'Efecto Manager': Fuga Concentrada</div>
+            <div class="insight-desc">
+              La rotación no es generalizada, sino focalizada en 4 supervisores específicos:
+              <ul style="margin-left: 1.2rem; margin-top: 4px;">
+                <li><strong>Alan Luis Marino:</strong> 80% de bajas (4/5) | HE prom: 21.3 h/m</li>
+                <li><strong>Facundo Miguel Ricci:</strong> 80% de bajas (4/5) | HE prom: 9.5 h/m</li>
+                <li><strong>Isaías Alberto Peña:</strong> 71% de bajas (5/7) | HE prom: 11.2 h/m</li>
+                <li><strong>Luciano Juan Chávez:</strong> 60% de bajas (3/5) | HE prom: 21.0 h/m</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="insight-item">
+            <div class="insight-title">Solución Operativa</div>
+            <div class="insight-desc">
+              Pre-aprobar un retén con empresas de servicios técnicos para cubrir bajas en &lt;20 días y auditar el clima laboral de los 4 supervisores críticos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: SEGURIDAD, FATIGA & MODELO ML -->
+    <div id="tab-seguridad" class="tab-content">
+      <div class="content-grid">
+        <div class="chart-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Umbral de Fatiga y Desempeño del Modelo Predictivo</h2>
+              <div class="panel-subtitle">LightGBM Safety Risk Scoring (ROC-AUC 0.88)</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartSafety"></canvas>
+          </div>
+        </div>
+
+        <div class="insights-panel">
+          <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--navy);">Machine Learning Aplicado a la Prevención</h3>
+
+          <div class="insight-item danger">
+            <div class="insight-title">Umbral de Fatiga: Riesgo Exponencial en >20 hs</div>
+            <div class="insight-desc">
+              Trabajar más de 20 horas extra al mes <strong>quintuplica la probabilidad de sufrir un accidente laboral (de 0.63% a 3.40%)</strong>.
+            </div>
+          </div>
+
+          <div class="insight-item">
+            <div class="insight-title">Eficacia del Modelo en Producción</div>
+            <div class="insight-desc">
+              Desarrollamos un modelo supervisado (LightGBM con ROC-AUC 0.88 y PR-AUC 0.35) que genera un scoring mensual de riesgo. <strong>Interviniendo preventivamente sobre el top 20% de mayor score, se captura el 83.3% de todos los accidentes futuros</strong>.
+            </div>
+          </div>
+
+          <div class="insight-item warning">
+            <div class="insight-title">Eficacia Comprobada de la Capacitación</div>
+            <div class="insight-desc">
+              Los operarios que completaron cursos de Seguridad reducen su tasa de siniestralidad de <strong>13.34‰ a 5.38‰ (una reducción del 59.7% en el riesgo relativo)</strong>. Sin embargo, el 78% de los accidentados jamás fue entrenado.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3-MODEL MACHINE LEARNING SUITE -->
+      <div style="margin-top: 1.75rem;">
+        <div class="panel-header" style="margin-bottom: 1rem;">
+          <div>
+            <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--navy);">Suite de Machine Learning Industrial en Producción (/assets/models/)</h3>
+            <div style="font-size: 0.85rem; color: var(--slate);">Modelos supervisados entrenados con validación temporal estratificada y serializados en pipeline de Python</div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
+          <div class="kpi-card" style="border-top: 4px solid var(--alert-red);">
+            <div class="kpi-top">
+              <span class="kpi-label">Modelo 1: Seguridad Laboral</span>
+              <span class="kpi-badge badge-danger">ROC-AUC 0.88</span>
+            </div>
+            <div class="kpi-value" style="font-size: 1.6rem;">Early Warning</div>
+            <div class="kpi-subtext" style="margin-bottom: 0.6rem;"><strong>Target:</strong> Incidentes con baja ART en el mes siguiente.</div>
+            <div class="kpi-subtext" style="font-size: 0.8rem; background: var(--bg); padding: 0.6rem; border-radius: 6px;">
+              <strong>Top Drivers:</strong> Horas extra acumuladas (rolling 3m), turno noche, inexperiencia en puesto y fatiga sin entrenamiento.
+              <br><strong>Lift Operativo:</strong> Captura 83.3% de accidentes en top 20% riesgo.
+            </div>
+          </div>
+
+          <div class="kpi-card" style="border-top: 4px solid var(--warn-amber);">
+            <div class="kpi-top">
+              <span class="kpi-label">Modelo 2: Fuga de Talento</span>
+              <span class="kpi-badge badge-warning">ROC-AUC 0.73</span>
+            </div>
+            <div class="kpi-value" style="font-size: 1.6rem;">Flight Risk</div>
+            <div class="kpi-subtext" style="margin-bottom: 0.6rem;"><strong>Target:</strong> Renuncia voluntaria en ventana de 60 días.</div>
+            <div class="kpi-subtext" style="font-size: 0.8rem; background: var(--bg); padding: 0.6rem; border-radius: 6px;">
+              <strong>Top Drivers:</strong> Tasa de rotación del supervisor (efecto manager tóxico), antigüedad, sobrecarga de horas extra y salario relativo.
+              <br><strong>Retención:</strong> Alerta temprana para técnicos difíciles de reemplazar.
+            </div>
+          </div>
+
+          <div class="kpi-card" style="border-top: 4px solid var(--primary);">
+            <div class="kpi-top">
+              <span class="kpi-label">Modelo 3: Calidad y Scrap</span>
+              <span class="kpi-badge badge-success">ROC-AUC 0.96</span>
+            </div>
+            <div class="kpi-value" style="font-size: 1.6rem;">Scrap &gt; 3.0%</div>
+            <div class="kpi-subtext" style="margin-bottom: 0.6rem;"><strong>Target:</strong> Desvío crítico de scrap en línea operativa.</div>
+            <div class="kpi-subtext" style="font-size: 0.8rem; background: var(--bg); padding: 0.6rem; border-radius: 6px;">
+              <strong>Top Drivers:</strong> Curva de aprendizaje del operario, eficiencia target, turno y horas de entrenamiento técnico completadas.
+              <br><strong>Precisión:</strong> PR-AUC de 0.89 con altísima fidelidad de detección.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: GÉNERO, MÉRITO & SALARIOS -->
+    <div id="tab-genero" class="tab-content">
+      <div class="content-grid">
+        <div class="chart-panel">
+          <div class="panel-header">
+            <div>
+              <h2 class="panel-title">Equidad Salarial y Rendimiento Femenino</h2>
+              <div class="panel-subtitle">Distribución porcentual de mujeres y comparativa salarial por nivel</div>
+            </div>
+          </div>
+          <div class="chart-container">
+            <canvas id="chartGender"></canvas>
+          </div>
+        </div>
+
+        <div class="insights-panel">
+          <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--navy);">Diagnóstico Libre de Sesgos Intuitivos</h3>
+
+          <div class="insight-item">
+            <div class="insight-title">Paridad Salarial Estricta en la Base</div>
+            <div class="insight-desc">
+              El test t confirma que <strong>no hay brecha salarial significativa global (p = 0.716)</strong>. En Nivel 1 las mujeres ganan $1.666M vs $1.656M (+0.6%), y en Niveles 2 y 3 la brecha es inferior al 1%.
+            </div>
+          </div>
+
+          <div class="insight-item warning">
+            <div class="insight-title">Techo de Cristal en Nivel Gerencial (Nivel 4)</div>
+            <div class="insight-desc">
+              En el Nivel 4 existe una brecha del <strong>6.8% en favor de los varones ($5.97M vs $5.56M)</strong>, explicada principalmente por mayor antigüedad acumulada de los gerentes varones.
+            </div>
+          </div>
+
+          <div class="insight-item">
+            <div class="insight-title">Superioridad en Mérito y Desempeño</div>
+            <div class="insight-desc">
+              Las mujeres exhiben mejor evaluación de desempeño (3.26 vs 3.17) y mayor proporción de Top Performers (9.1% vs 7.3%). La acción debe enfocarse en reclutar más mujeres en Ensamble (26.8%) e Ingeniería (28.6%).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 6: CALCULADORA EBITDA -->
+    <div id="tab-simulador" class="tab-content">
+      <div class="simulator-card">
+        <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--navy);">
+          Simulador Financiero de Retorno en EBITDA
+        </h2>
+        <p style="color: var(--slate); font-size: 0.95rem; margin-bottom: 1.5rem;">
+          Ajustá las palancas de reducción de scrap y control de horas extra para estimar la ganancia neta anual en el P&L.
+        </p>
+
+        <div class="sim-slider-row">
+          <div class="sim-slider-group">
+            <label>
+              <span>Reducción de Scrap Nocturno (Llevar 3.6% hacia diurno)</span>
+              <span id="lblScrapRed" style="color: var(--primary);">40%</span>
+            </label>
+            <input type="range" id="rangeScrap" min="10" max="60" value="40" step="5" oninput="updateSimulation()">
+            <div style="font-size: 0.78rem; color: var(--slate); margin-top: 4px;">Ahorro directo en chapa, pintura y horas máquina perdidas.</div>
+          </div>
+
+          <div class="sim-slider-group">
+            <label>
+              <span>Optimización de Horas Extra (Reducción de sobrecarga)</span>
+              <span id="lblOtRed" style="color: var(--primary);">25%</span>
+            </label>
+            <input type="range" id="rangeOT" min="10" max="50" value="25" step="5" oninput="updateSimulation()">
+            <div style="font-size: 0.78rem; color: var(--slate); margin-top: 4px;">Recorte mediante agilización del Time-to-Fill y tope de 15 hs.</div>
+          </div>
+        </div>
+
+        <div class="sim-results">
+          <div>
+            <div class="sim-res-val" id="simScrapSavings">$112M</div>
+            <div class="sim-res-lbl">Ahorro Anual Scrap</div>
+          </div>
+          <div>
+            <div class="sim-res-val" id="simOtSavings">$251M</div>
+            <div class="sim-res-lbl">Ahorro Anual Horas Extra</div>
+          </div>
+          <div>
+            <div class="sim-res-val" id="simTotalSavings" style="color: #0A5C36;">$363M</div>
+            <div class="sim-res-lbl">Impacto Neto Anualizado en EBITDA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 7: PLAN DE ACCIÓN 30-60-90 -->
+    <div id="tab-plan" class="tab-content">
+      <div class="timeline-grid">
+        <div class="timeline-col">
+          <div class="timeline-header">
+            <div class="timeline-phase">Fase 1: 0 - 30 Días</div>
+            <h3 class="timeline-title">Contención Operativa</h3>
+            <div style="font-size: 0.85rem; color: var(--slate);">Frenar la sangría de scrap y accidentes</div>
+          </div>
+          <ul class="action-list">
+            <li class="action-item">
+              <span class="action-icon">1</span>
+              <div><strong>Supervisión Nocturna Activa:</strong> Reasignar 2 Supervisores Nivel 3 y 1 Auditor de Calidad al Turno Noche con rotación mensual obligatoria.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">2</span>
+              <div><strong>Sucesión de Emergencia:</strong> Asignar aprendices dedicados a Ana Beatriz Ortiz y Teresa Rodríguez con incentivo salarial por transferencia de know-how.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">3</span>
+              <div><strong>Designación de Plant Manager:</strong> Cerrar la vacante abierta desde diciembre 2024 para liderar la disciplina operativa en Estampado.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">4</span>
+              <div><strong>Intervención a 4 Managers:</strong> RRHH debe auditar los equipos de Alan Marino, Facundo Ricci, Isaías Peña y Luciano Chávez (fuga de 60-80%).</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="timeline-col">
+          <div class="timeline-header">
+            <div class="timeline-phase">Fase 2: 31 - 60 Días</div>
+            <h3 class="timeline-title">Estabilización y Procesos</h3>
+            <div style="font-size: 0.85rem; color: var(--slate);">Rediseño de selección y capacitación</div>
+          </div>
+          <ul class="action-list">
+            <li class="action-item">
+              <span class="action-icon">5</span>
+              <div><strong>Capacitación Obligatoria en Seguridad:</strong> Certificar al 100% de operarios Blue Collar de Ensamble y Estampado (reduce incidentes 60%).</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">6</span>
+              <div><strong>Alianzas para Time-to-Fill:</strong> Convenios con agencias técnicas para recortar la cobertura eléctrica de 67 a menos de 25 días.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">7</span>
+              <div><strong>Hard-Cap de Horas Extra:</strong> Límite de 15 hs/mes por operario para cortar el umbral de fatiga crítica (>20h quintuplica el riesgo de accidente).</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">8</span>
+              <div><strong>Corrección Legal en ERP:</strong> Parametrizar la fórmula de jubilación femenina a los 60 años y depurar las 6 falsas jubilaciones de jóvenes.</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="timeline-col">
+          <div class="timeline-header">
+            <div class="timeline-phase">Fase 3: 61 - 90+ Días</div>
+            <h3 class="timeline-title">Institucionalización ML</h3>
+            <div style="font-size: 0.85rem; color: var(--slate);">People Analytics y Cultura Predictiva</div>
+          </div>
+          <ul class="action-list">
+            <li class="action-item">
+              <span class="action-icon">9</span>
+              <div><strong>Despliegue del Early Warning ML:</strong> Scoring diario en planta que alerta sobre el 20% de mayor riesgo de accidente para intervención preventiva.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">10</span>
+              <div><strong>Nivelación Salarial Gerencial:</strong> Corregir la brecha del 6.8% en Nivel 4 y promover operarias Top Performers a Team Leaders.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">11</span>
+              <div><strong>Incentivos Vinculados a Calidad:</strong> Vincular el 30% del bono de supervisores al cumplimiento de metas de scrap y cero accidentes.</div>
+            </li>
+            <li class="action-item">
+              <span class="action-icon">12</span>
+              <div><strong>Captura de Ahorro Neto:</strong> Consolidar ahorros anualizados de $363 Millones de pesos en EBITDA.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>TechnoStamp Industries | Plataforma Unificada de Decision Science & Machine Learning | Portfolio Showcase</p>
+    <p style="margin-top: 0.35rem; font-size: 0.78rem;">Pipeline econométrico y modelos predictivos serializados en /assets/technostamp_safety_model_prod.pkl.</p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      
+      const target = document.getElementById(tabId);
+      if (target) target.classList.add('active');
+      
+      const btn = Array.from(document.querySelectorAll('.tab-btn')).find(b => b.getAttribute('onclick').includes(tabId));
+      if (btn) btn.classList.add('active');
+    }
+
+    // Chart 1: Shifts (Scrap vs Accidents)
+    const ctxShift = document.getElementById('chartShift').getContext('2d');
+    new Chart(ctxShift, {
+      type: 'bar',
+      data: {
+        labels: ['Mañana', 'Tarde', 'Noche', 'Rotativo', 'Administrativo'],
+        datasets: [
+          {
+            label: 'Tasa de Scrap Promedio (%)',
+            data: [1.89, 1.79, 3.60, 1.64, 1.77],
+            backgroundColor: ['#3B82F6', '#3B82F6', '#E11D48', '#3B82F6', '#94A3B8'],
+            borderRadius: 6,
+            yAxisID: 'y'
+          },
+          {
+            label: 'Tasa Incidentes x 1.000 emp-mes',
+            data: [2.22, 2.22, 11.77, 2.30, 3.81],
+            backgroundColor: ['#10B981', '#10B981', '#991B1B', '#10B981', '#64748B'],
+            borderRadius: 6,
+            yAxisID: 'y1'
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            type: 'linear', position: 'left',
+            title: { display: true, text: 'Tasa de Scrap (%)', font: { weight: 'bold' } },
+            max: 4.5
+          },
+          y1: {
+            type: 'linear', position: 'right',
+            title: { display: true, text: 'Incidentes x 1.000 emp-mes', font: { weight: 'bold' } },
+            grid: { drawOnChartArea: false },
+            max: 15
+          }
+        }
+      }
+    });
+
+    // Chart 2: Overtime Cost & Toxic Managers
+    const ctxOT = document.getElementById('chartOvertime').getContext('2d');
+    new Chart(ctxOT, {
+      type: 'bar',
+      data: {
+        labels: ['Alan Marino (80% bajas)', 'Facundo Ricci (80% bajas)', 'Isaías Peña (71% bajas)', 'Luciano Chávez (60% bajas)', 'Media Fábrica (19% bajas)'],
+        datasets: [{
+          label: '% Rotación del Equipo',
+          data: [80, 80, 71, 60, 19],
+          backgroundColor: ['#E11D48', '#E11D48', '#E11D48', '#E11D48', '#00A86B'],
+          borderRadius: 6
+        }]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          x: {
+            title: { display: true, text: '% Rotación / Renuncias Voluntarias', font: { weight: 'bold' } },
+            max: 100
+          }
+        }
+      }
+    });
+
+    // Chart 3: Safety Risk Curve by Overtime
+    const ctxSafety = document.getElementById('chartSafety').getContext('2d');
+    new Chart(ctxSafety, {
+      type: 'bar',
+      data: {
+        labels: ['0-8 hs extra', '8-12 hs extra', '12-16 hs extra', '16-20 hs extra', '>20 hs extra (Crítico)'],
+        datasets: [{
+          label: 'Probabilidad Mensual de Accidente (%)',
+          data: [0.63, 0.85, 1.48, 1.39, 3.40],
+          backgroundColor: ['#10B981', '#3B82F6', '#F59E0B', '#EA580C', '#E11D48'],
+          borderRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            title: { display: true, text: 'Probabilidad de Accidente (%)', font: { weight: 'bold' } },
+            max: 4.0
+          }
+        }
+      }
+    });
+
+    // Chart 4: Gender representation
+    const ctxGender = document.getElementById('chartGender').getContext('2d');
+    new Chart(ctxGender, {
+      type: 'bar',
+      data: {
+        labels: ['Administración', 'Estampado', 'Logística', 'Pintura', 'Calidad', 'Mant. Eléctrico', 'RRHH', 'Mant. Mecánico', 'Ingeniería', 'Ensamble'],
+        datasets: [
+          {
+            label: '% Mujeres (F)',
+            data: [46.7, 46.6, 38.7, 38.2, 37.1, 36.7, 33.3, 33.3, 28.6, 26.8],
+            backgroundColor: '#8B5CF6',
+            borderRadius: 6
+          },
+          {
+            label: '% Varones (M)',
+            data: [53.3, 53.4, 61.3, 61.8, 62.9, 63.3, 66.7, 66.7, 71.4, 73.2],
+            backgroundColor: '#CBD5E1',
+            borderRadius: 6
+          }
+        ]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { stacked: true, max: 100 },
+          y: { stacked: true }
+        }
+      }
+    });
+
+    // Simulator logic
+    function updateSimulation() {
+      const scrapPct = parseInt(document.getElementById('rangeScrap').value);
+      const otPct = parseInt(document.getElementById('rangeOT').value);
+
+      document.getElementById('lblScrapRed').innerText = scrapPct + '%';
+      document.getElementById('lblOtRed').innerText = otPct + '%';
+
+      const annualScrapBase = 280;
+      const annualOtBase = 1004;
+
+      const scrapSavings = Math.round((annualScrapBase * (scrapPct / 100)));
+      const otSavings = Math.round((annualOtBase * (otPct / 100)));
+      const totalSavings = scrapSavings + otSavings;
+
+      document.getElementById('simScrapSavings').innerText = '$' + scrapSavings + 'M';
+      document.getElementById('simOtSavings').innerText = '$' + otSavings + 'M';
+      document.getElementById('simTotalSavings').innerText = '$' + totalSavings + 'M';
+    }
+  </script>
+</body>
+</html>

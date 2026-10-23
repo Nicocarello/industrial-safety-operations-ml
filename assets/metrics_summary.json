@@ -1,0 +1,21 @@
+{
+    "headcount_active_may25": 562,
+    "headcount_start_jan24": 586,
+    "total_exits": 132,
+    "voluntary_resignations": 89,
+    "total_overtime_cost_ars": 1422270277.6999998,
+    "total_overtime_hours": 98259.5,
+    "night_scrap_rate": 3.6026430348258702,
+    "day_scrap_rate": 1.7921951219512193,
+    "night_accident_rate_per_1000": 11.779661016949154,
+    "accident_risk_over_20h": 3.211009174311927,
+    "accident_risk_under_8h": 0.6329113924050633,
+    "critical_retirements_12m": 4,
+    "critical_retirements_pct": 80.0,
+    "maint_time_to_fill_days": 66.58695652173913,
+    "maint_turnover_pct": 23.91304347826087,
+    "safety_training_effectiveness_reduction_pct": 59.7,
+    "ml_safety_roc_auc": 0.875775521714608,
+    "ml_safety_top20_capture_pct": 83.33333333333334,
+    "annual_projected_ebitda_gain_ars": 363000000.0
+}

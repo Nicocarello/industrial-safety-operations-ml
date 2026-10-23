@@ -1,0 +1,50 @@
+{
+    "safety_model": {
+        "name": "Workplace Safety Early Warning Classifier",
+        "algorithm": "LightGBM Classifier (Balanced)",
+        "target": "incidentes_seguridad_count > 0",
+        "roc_auc": 0.861,
+        "pr_auc": 0.3942,
+        "top20_recall_pct": 72.2,
+        "top_features": [
+            "he_roll_3m",
+            "antiguedad_meses",
+            "turno_trabajo_Noche",
+            "rating_performance",
+            "indice_fatiga_sin_seguridad",
+            "horas_extra"
+        ]
+    },
+    "flight_risk_model": {
+        "name": "Voluntary Churn / Flight Risk Predictor",
+        "algorithm": "LightGBM Classifier (Balanced)",
+        "target": "Renuncia voluntaria en ventana de 60 d\u00edas",
+        "roc_auc": 0.7299,
+        "pr_auc": 0.0392,
+        "top20_recall_pct": 40.0,
+        "top_features": [
+            "mgr_turnover_rate",
+            "antiguedad_meses",
+            "edad",
+            "he_roll_3m",
+            "salario_base_mensual",
+            "ausencias_roll_3m"
+        ]
+    },
+    "scrap_model": {
+        "name": "Operational Scrap Risk Predictor (>3.0%)",
+        "algorithm": "LightGBM Classifier (Balanced)",
+        "target": "tasa_scrap_porcentaje > 3.0%",
+        "roc_auc": 0.959,
+        "pr_auc": 0.8889,
+        "top20_recall_pct": 67.1,
+        "top_features": [
+            "antiguedad_meses",
+            "eficiencia_vs_target",
+            "he_roll_3m",
+            "unidades_producidas",
+            "horas_extra",
+            "area_Ensamble"
+        ]
+    }
+}

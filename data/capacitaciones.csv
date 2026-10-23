@@ -1,0 +1,730 @@
+"training_id","empleado_id","fecha_inicio","fecha_fin","mes_training","tipo_training","categoria_training","duracion_horas","modalidad","instructor","completado","calificacion_examen","rating_efectividad","costo_training","area_empleado","puesto_empleado","nivel_jerarquico_empleado"
+5027,1000,"2024-04-02","2024-04-15","2024-04","Setup de Prensa - Avanzado","Seguridad",104,"Presencial","Sr(a). Mia Molina",True,"89.00",3,"43696.41","Estampado","Técnico Setup",1
+5026,1000,"2024-09-05","2024-09-20","2024-09","Setup de Prensa - Básico","Seguridad",120,"Mixto","Thiago Augusto Ruiz Gomez",True,"64.00",3,"24880.11","Estampado","Técnico Setup",1
+5025,1001,"2024-07-09","2024-07-15","2024-07","Capacitación General","Gestión",48,"Presencial","León Vargas",True,"83.00",4,"9616.08","Dirección","Plant Manager",5
+5028,1002,"2024-04-15","2024-04-30","2024-04","Setup de Prensa - Básico","Gestión",120,"Mixto","Sr(a). Benjamin Alejandro Medina",True,"95.00",5,"24163.20","Estampado","Técnico Setup",1
+5029,1003,"2025-01-11","2025-01-22","2025-01","Mantenimiento Preventivo","Seguridad",88,"Mixto","Simon Juana Ledesma",True,"92.00",5,"20258.79","Estampado","Operario de Prensa",1
+5030,1004,"2024-05-21","2024-06-02","2024-06","Seguridad en Prensas","Técnico",96,"Presencial","Felicitas Fernandez",False,"68.00",4,"29946.72","Estampado","Técnico Setup",1
+5031,1004,"2024-06-18","2024-06-24","2024-06","Seguridad en Prensas","Técnico",48,"Mixto","Emma Milagros Vera Caceres",True,"88.00",4,"15853.89","Estampado","Técnico Setup",1
+5032,1004,"2024-12-21","2024-12-28","2024-12","Mantenimiento Preventivo","Seguridad",56,"Mixto","Tomàs Luna Nuñez",True,"63.00",2,"39376.02","Estampado","Técnico Setup",1
+5033,1010,"2024-12-21","2024-12-25","2024-12","Setup de Prensa - Básico","Gestión",32,"Online","Dr(a). Juan Pablo Arias",True,"67.00",2,"21202.38","Estampado","Operario de Prensa",1
+5034,1012,"2024-08-15","2024-08-30","2024-08","Seguridad en Prensas","Seguridad",120,"Presencial","Constanza Nina Luna Avila",True,"83.00",5,"29212.35","Estampado","Técnico Setup",1
+5035,1012,"2025-01-20","2025-01-23","2025-01","Setup de Prensa - Básico","Técnico",24,"Presencial","Milo Dominguez Sosa",True,"60.00",3,"15743.73","Estampado","Técnico Setup",1
+5037,1013,"2024-01-13","2024-01-19","2024-01","Setup de Prensa - Avanzado","Técnico",48,"Presencial","Nahiara Romero",True,"60.00",4,"40441.95","Estampado","Operario de Prensa",1
+5036,1013,"2025-04-18","2025-05-03","2025-05","Seguridad en Prensas","Seguridad",120,"Mixto","Sr(a). Lucas Moreno",True,"77.00",5,"17826.15","Estampado","Operario de Prensa",1
+5038,1015,"2024-04-09","2024-04-23","2024-04","Mantenimiento Preventivo","Técnico",112,"Online","Santino Gomez",True,"65.00",2,"32897.10","Estampado","Operario de Prensa",1
+5039,1015,"2025-03-06","2025-03-20","2025-03","Setup de Prensa - Avanzado","Seguridad",112,"Presencial","Bianca Maximo Silva",True,"100.00",2,"10411.74","Estampado","Operario de Prensa",1
+5040,1019,"2024-01-21","2024-01-31","2024-01","Seguridad en Prensas","Gestión",80,"Mixto","Sr(a). Tomàs Ruiz",True,"100.00",3,"34187.01","Estampado","Técnico Setup",1
+5042,1020,"2024-08-06","2024-08-11","2024-08","Setup de Prensa - Avanzado","Gestión",40,"Online","Juana Ayala Rodriguez",True,"75.00",3,"26022.33","Estampado","Operario de Prensa",1
+5041,1020,"2025-02-14","2025-02-23","2025-02","Setup de Prensa - Avanzado","Técnico",72,"Presencial","Sr(a). Lautaro Gonzalez",True,"79.00",4,"16241.01","Estampado","Operario de Prensa",1
+5043,1021,"2024-05-13","2024-05-16","2024-05","Mantenimiento Preventivo","Gestión",24,"Presencial","Lautaro Alma Caceres",True,"68.00",5,"41765.16","Estampado","Alimentador de Línea",1
+5044,1021,"2024-11-03","2024-11-15","2024-11","Seguridad en Prensas","Calidad",96,"Online","Dr(a). Lautaro Gomez",True,"65.00",5,"42623.04","Estampado","Alimentador de Línea",1
+5045,1027,"2024-03-14","2024-03-18","2024-03","Mantenimiento Preventivo","Gestión",32,"Mixto","Juan Cruz Garcia",True,"84.00",3,"35493.18","Estampado","Operario de Prensa",1
+5046,1029,"2024-10-17","2024-10-25","2024-10","Seguridad en Prensas","Seguridad",64,"Online","Benjamin Romero Gomez",True,"67.00",5,"38675.67","Estampado","Alimentador de Línea",1
+5047,1030,"2025-04-21","2025-05-02","2025-05","Setup de Prensa - Básico","Técnico",88,"Presencial","Alexander Thiago Nicolas Gutierrez",True,"88.00",3,"15238.98","Estampado","Técnico Setup",1
+5050,1031,"2024-04-08","2024-04-11","2024-04","Seguridad en Prensas","Gestión",24,"Online","Santiago Milagros Ruiz",True,"88.00",5,"24162.63","Estampado","Alimentador de Línea",1
+5048,1031,"2024-07-12","2024-07-23","2024-07","Mantenimiento Preventivo","Seguridad",88,"Presencial","Sr(a). Ignacio Flores",True,"69.00",3,"17196.99","Estampado","Alimentador de Línea",1
+5049,1031,"2024-09-06","2024-09-11","2024-09","Mantenimiento Preventivo","Calidad",40,"Presencial","Francisco Ruiz",True,"76.00",4,"43309.08","Estampado","Alimentador de Línea",1
+5051,1033,"2024-04-13","2024-04-17","2024-04","Mantenimiento Preventivo","Calidad",32,"Presencial","Sr(a). Tomàs Flores",True,"67.00",2,"28492.11","Estampado","Técnico Setup",1
+5052,1033,"2024-07-21","2024-08-01","2024-08","Setup de Prensa - Avanzado","Técnico",88,"Presencial","Federico Diaz Cardozo",True,"87.00",5,"18406.29","Estampado","Técnico Setup",1
+5053,1034,"2024-04-14","2024-04-27","2024-04","Mantenimiento Preventivo","Calidad",104,"Mixto","Dante Figueroa Rojas",True,"67.00",2,"25034.61","Estampado","Técnico Setup",1
+5056,1036,"2024-01-07","2024-01-18","2024-01","Setup de Prensa - Avanzado","Gestión",88,"Online","Sr(a). Lautaro Farias",True,"86.00",4,"44763.18","Estampado","Operario de Prensa",1
+5054,1036,"2025-01-05","2025-01-10","2025-01","Seguridad en Prensas","Gestión",40,"Mixto","Juan Cruz Facundo Perez Guzman",True,"95.00",4,"37277.55","Estampado","Operario de Prensa",1
+5055,1036,"2025-02-14","2025-02-23","2025-02","Seguridad en Prensas","Gestión",72,"Mixto","Dr(a). Matias Cabrera",True,"87.00",4,"30529.11","Estampado","Operario de Prensa",1
+5057,1037,"2024-09-12","2024-09-22","2024-09","Mantenimiento Preventivo","Seguridad",80,"Online","Sr(a). Zoe Valentina Vega",True,"88.00",3,"10470.12","Estampado","Operario de Prensa",1
+5058,1039,"2024-12-18","2024-12-24","2024-12","Seguridad en Prensas","Seguridad",48,"Mixto","Bastian Salvador Carrizo Sanchez",True,"93.00",2,"17443.14","Estampado","Operario de Prensa",1
+5059,1040,"2024-01-11","2024-01-20","2024-01","Seguridad en Prensas","Seguridad",72,"Online","Julieta Joaquin Ledesma",True,"91.00",2,"44299.32","Estampado","Operario de Prensa",1
+5061,1043,"2024-06-08","2024-06-11","2024-06","Mantenimiento Preventivo","Gestión",24,"Mixto","Pedro Suarez",True,"61.00",2,"13686.18","Estampado","Operario de Prensa",1
+5060,1043,"2025-02-20","2025-03-03","2025-03","Setup de Prensa - Avanzado","Técnico",88,"Presencial","Dr(a). Ciro Fernandez",True,"63.00",3,"10386.27","Estampado","Operario de Prensa",1
+5062,1044,"2024-06-07","2024-06-13","2024-06","Seguridad en Prensas","Técnico",48,"Mixto","Sr(a). Lautaro Benjamin Aguirre",True,"83.00",4,"9352.92","Estampado","Operario de Prensa",1
+5063,1047,"2024-01-14","2024-01-20","2024-01","Setup de Prensa - Básico","Calidad",48,"Online","Santiago Maite Rios",True,"94.00",2,"24548.07","Estampado","Técnico Setup",1
+5064,1048,"2024-08-15","2024-08-20","2024-08","Setup de Prensa - Básico","Gestión",40,"Online","Oriana Pilar Diaz Alvarez",True,"82.00",2,"13764.00","Estampado","Operario de Prensa",1
+5065,1048,"2024-12-12","2024-12-19","2024-12","Mantenimiento Preventivo","Seguridad",56,"Online","Dr(a). Renata Aguirre",True,"70.00",2,"37295.40","Estampado","Operario de Prensa",1
+5066,1049,"2025-05-16","2025-05-26","2025-05","Mantenimiento Preventivo","Técnico",80,"Presencial","Pilar Rodriguez",True,"93.00",4,"18759.18","Estampado","Operario de Prensa",1
+5067,1050,"2024-06-12","2024-06-25","2024-06","Mantenimiento Preventivo","Gestión",104,"Presencial","Violeta Diaz Gonzalez",True,"92.00",2,"15702.78","Estampado","Alimentador de Línea",1
+5068,1056,"2024-12-06","2024-12-09","2024-12","Setup de Prensa - Avanzado","Gestión",24,"Online","Mateo Benjamin Mateo Medina",True,"100.00",2,"31678.53","Estampado","Técnico Setup",1
+5069,1058,"2024-07-14","2024-07-23","2024-07","Setup de Prensa - Básico","Seguridad",72,"Presencial","Nicolas Gomez",True,"98.00",5,"24674.40","Estampado","Operario de Prensa",1
+5071,1059,"2024-08-20","2024-08-26","2024-08","Seguridad en Prensas","Calidad",48,"Mixto","Sr(a). Alejo Benitez",True,"64.00",5,"12075.18","Estampado","Alimentador de Línea",1
+5070,1059,"2024-08-14","2024-08-27","2024-08","Mantenimiento Preventivo","Técnico",104,"Presencial","Thiago Benjamin Molina Olivera",True,"97.00",3,"35619.78","Estampado","Alimentador de Línea",1
+5072,1060,"2025-05-16","2025-05-28","2025-05","Setup de Prensa - Avanzado","Gestión",96,"Mixto","Juan Sebastian Santino Rivero",True,"80.00",4,"42074.61","Estampado","Operario de Prensa",1
+5073,1061,"2024-03-21","2024-03-28","2024-03","Seguridad en Prensas","Técnico",56,"Mixto","Juana Angel Gabriel Acosta",True,"99.00",2,"24619.11","Estampado","Operario de Prensa",1
+5074,1062,"2024-08-02","2024-08-14","2024-08","Setup de Prensa - Básico","Gestión",96,"Presencial","Morena Jazmin Catalina Guzman Gomez",True,"96.00",3,"13440.00","Estampado","Alimentador de Línea",1
+5075,1065,"2024-10-07","2024-10-18","2024-10","Setup de Prensa - Básico","Calidad",88,"Mixto","Sofia Tiziano Benjamin Ledesma",True,"71.00",5,"18279.09","Estampado","Alimentador de Línea",1
+5076,1066,"2025-04-05","2025-04-14","2025-04","Seguridad en Prensas","Calidad",72,"Online","Dr(a). Mateo Fernandez",True,"81.00",3,"31878.60","Estampado","Técnico Setup",1
+5077,1067,"2024-03-13","2024-03-22","2024-03","Mantenimiento Preventivo","Calidad",72,"Mixto","Zoe Valentina Luciana Ortiz",True,"100.00",5,"33876.66","Estampado","Operario de Prensa",1
+5078,1068,"2025-02-21","2025-03-07","2025-03","Setup de Prensa - Básico","Gestión",112,"Presencial","Dr(a). Matias Lopez",True,"94.00",2,"14010.18","Estampado","Operario de Prensa",1
+5079,1069,"2024-01-06","2024-01-20","2024-01","Setup de Prensa - Avanzado","Seguridad",112,"Online","Emilia Thiago Benjamin Mendez Velazquez",True,"97.00",5,"11409.45","Estampado","Alimentador de Línea",1
+5081,1070,"2024-03-20","2024-04-03","2024-04","Mantenimiento Preventivo","Gestión",112,"Mixto","Samuel Aguero Fernandez",True,"88.00",2,"32451.15","Estampado","Operario de Prensa",1
+5080,1070,"2025-03-13","2025-03-25","2025-03","Mantenimiento Preventivo","Calidad",96,"Presencial","Valentino Cardozo Ramirez",False,"61.00",2,"15572.31","Estampado","Operario de Prensa",1
+5082,1070,"2025-05-15","2025-05-28","2025-05","Setup de Prensa - Básico","Técnico",104,"Online","Valentina Luz Milagros Rivero",True,"64.00",3,"20174.49","Estampado","Operario de Prensa",1
+5083,1071,"2024-11-04","2024-11-09","2024-11","Seguridad en Prensas","Técnico",40,"Online","Morena Silva",True,"68.00",2,"15300.81","Estampado","Operario de Prensa",1
+5085,1076,"2025-04-04","2025-04-16","2025-04","Seguridad en Prensas","Técnico",96,"Mixto","Lola Cardozo Ledesma",True,"84.00",3,"41694.27","Estampado","Alimentador de Línea",1
+5084,1076,"2025-04-11","2025-04-21","2025-04","Seguridad en Prensas","Gestión",80,"Mixto","Lucía Thiago Rodriguez Arias",True,"82.00",2,"16576.59","Estampado","Alimentador de Línea",1
+5086,1076,"2025-05-03","2025-05-06","2025-05","Setup de Prensa - Avanzado","Gestión",24,"Presencial","Facundo Pilar Nuñez Aguero",True,"88.00",2,"18598.26","Estampado","Alimentador de Línea",1
+5087,1077,"2024-05-21","2024-05-24","2024-05","Seguridad en Prensas","Calidad",24,"Presencial","Sebastian Medina Dominguez",True,"72.00",5,"31796.31","Estampado","Alimentador de Línea",1
+5088,1079,"2024-06-04","2024-06-19","2024-06","Setup de Prensa - Avanzado","Calidad",120,"Mixto","Juan Francisco Violeta Ruiz Martin",True,"61.00",5,"27436.86","Estampado","Operario de Prensa",1
+5089,1079,"2025-04-07","2025-04-19","2025-04","Seguridad en Prensas","Seguridad",96,"Presencial","Morena Juan Cruz Garcia",False,"75.00",4,"14893.86","Estampado","Operario de Prensa",1
+5090,1080,"2024-03-04","2024-03-11","2024-03","Setup de Prensa - Avanzado","Seguridad",56,"Presencial","Sr(a). Tiziano Suarez",True,"79.00",5,"38437.38","Estampado","Alimentador de Línea",1
+5091,1080,"2025-02-02","2025-02-09","2025-02","Setup de Prensa - Avanzado","Técnico",56,"Mixto","Luciano Benjamin Paulina Gonzalez Morales",False,"61.00",5,"32797.56","Estampado","Alimentador de Línea",1
+5092,1081,"2024-10-11","2024-10-17","2024-10","Setup de Prensa - Avanzado","Calidad",48,"Online","Benjamin Soria",True,"64.00",3,"39020.91","Estampado","Alimentador de Línea",1
+5093,1082,"2025-05-16","2025-05-30","2025-05","Seguridad en Prensas","Seguridad",112,"Presencial","Simon Benjamin Campos",True,"78.00",2,"18459.39","Estampado","Alimentador de Línea",1
+5094,1084,"2024-05-16","2024-05-22","2024-05","Setup de Prensa - Básico","Técnico",48,"Mixto","Jeronimo Nahuel Cruz",True,"66.00",5,"11190.00","Estampado","Técnico Setup",1
+5095,1084,"2025-01-21","2025-02-04","2025-02","Setup de Prensa - Avanzado","Seguridad",112,"Mixto","Mateo Paula Perez Ferreyra",True,"77.00",2,"11866.53","Estampado","Técnico Setup",1
+5096,1085,"2024-01-04","2024-01-19","2024-01","Mantenimiento Preventivo","Técnico",120,"Online","Catalina Vicente Moreno Rodriguez",True,"70.00",2,"38344.35","Estampado","Operario de Prensa",1
+5097,1085,"2025-02-13","2025-02-26","2025-02","Setup de Prensa - Básico","Gestión",104,"Online","Ian Benjamin Zoe Flores Gomez",True,"92.00",2,"24510.60","Estampado","Operario de Prensa",1
+5098,1087,"2024-10-15","2024-10-23","2024-10","Seguridad en Prensas","Seguridad",64,"Online","Benjamin Herrera Fernandez",False,"61.00",2,"37729.62","Estampado","Operario de Prensa",1
+5099,1088,"2024-03-15","2024-03-19","2024-03","Mantenimiento Preventivo","Seguridad",32,"Online","Maximo Tomàs Gonzalez",True,"74.00",4,"18326.79","Estampado","Alimentador de Línea",1
+5100,1088,"2024-06-04","2024-06-18","2024-06","Mantenimiento Preventivo","Técnico",112,"Presencial","Augusto Constantino Flores Fernandez",True,"97.00",2,"40814.04","Estampado","Alimentador de Línea",1
+5101,1091,"2024-11-20","2024-11-25","2024-11","Setup de Prensa - Avanzado","Técnico",40,"Presencial","Francisco Gomez Cordoba",True,"77.00",3,"14643.87","Estampado","Operario de Prensa",1
+5102,1092,"2025-05-21","2025-05-31","2025-05","Mantenimiento Preventivo","Técnico",80,"Online","Josefina Lucero Fernandez",True,"67.00",2,"28277.58","Estampado","Técnico Setup",1
+5103,1093,"2024-03-02","2024-03-14","2024-03","Setup de Prensa - Avanzado","Técnico",96,"Online","Santino Benjamin Agostina Rodriguez",True,"95.00",5,"23459.46","Estampado","Operario de Prensa",1
+5104,1093,"2024-11-17","2024-11-21","2024-11","Seguridad en Prensas","Calidad",32,"Online","Sr(a). Tomas Lopez",True,"62.00",3,"18552.09","Estampado","Operario de Prensa",1
+5105,1094,"2024-10-04","2024-10-14","2024-10","Mantenimiento Preventivo","Gestión",80,"Mixto","Joaquín Lucía Fernandez Ramirez",True,"74.00",5,"14350.83","Estampado","Técnico Setup",1
+5106,1095,"2024-01-14","2024-01-20","2024-01","Seguridad en Prensas","Seguridad",48,"Presencial","Candela Rodriguez",True,"67.00",4,"11674.44","Estampado","Alimentador de Línea",1
+5107,1097,"2024-03-07","2024-03-19","2024-03","Setup de Prensa - Avanzado","Calidad",96,"Mixto","Valentino Gomez Ojeda",False,"87.00",2,"16848.30","Estampado","Alimentador de Línea",1
+5108,1098,"2024-10-18","2024-10-21","2024-10","Mantenimiento Preventivo","Gestión",24,"Mixto","Luisina Josefina Fernandez Garcia",True,"97.00",2,"14979.00","Estampado","Técnico Setup",1
+5109,1101,"2024-07-18","2024-07-28","2024-07","Seguridad en Prensas","Gestión",80,"Presencial","Valentina Juarez Muñoz",True,"79.00",4,"17995.17","Estampado","Técnico Setup",1
+5110,1104,"2025-01-14","2025-01-19","2025-01","Setup de Prensa - Avanzado","Técnico",40,"Presencial","Fausto Helena Farias Dominguez",True,"88.00",3,"23074.26","Estampado","Alimentador de Línea",1
+5111,1106,"2024-11-17","2024-12-02","2024-12","Setup de Prensa - Básico","Técnico",120,"Online","Sofia Sofía Lopez Ruiz",True,"94.00",2,"42858.84","Estampado","Alimentador de Línea",1
+5112,1106,"2025-02-17","2025-02-28","2025-02","Setup de Prensa - Avanzado","Seguridad",88,"Online","Martín Arias Martinez",True,"86.00",2,"19463.88","Estampado","Alimentador de Línea",1
+5113,1109,"2024-11-13","2024-11-23","2024-11","Seguridad en Prensas","Seguridad",80,"Presencial","Santino Gimenez",True,"62.00",3,"44692.05","Estampado","Operario de Prensa",1
+5114,1112,"2024-05-17","2024-05-25","2024-05","Mantenimiento Preventivo","Técnico",64,"Online","Sr(a). Bruno Bravo",True,"64.00",3,"44973.93","Estampado","Técnico Setup",1
+5116,1113,"2024-10-19","2024-11-01","2024-11","Mantenimiento Preventivo","Gestión",104,"Mixto","Manuel Joaquin Herrera Olivera",True,"78.00",3,"25006.20","Estampado","Operario de Prensa",1
+5115,1113,"2024-12-13","2024-12-19","2024-12","Mantenimiento Preventivo","Calidad",48,"Online","Lucas Benjamin Valentino Guzman Ortiz",True,"60.00",2,"33008.73","Estampado","Operario de Prensa",1
+5117,1114,"2024-05-18","2024-05-24","2024-05","Setup de Prensa - Avanzado","Calidad",48,"Presencial","Benjamin Rodriguez Perez",True,"68.00",3,"10164.63","Estampado","Técnico Setup",1
+5118,1115,"2024-03-06","2024-03-11","2024-03","Seguridad en Prensas","Seguridad",40,"Mixto","Thiago Gabriel Duarte Ruiz",True,"80.00",2,"12854.01","Estampado","Alimentador de Línea",1
+5119,1116,"2024-07-20","2024-07-27","2024-07","Setup de Prensa - Básico","Calidad",56,"Mixto","Lucía Juan Bautista Ramirez Quiroga",True,"97.00",2,"11222.13","Estampado","Técnico Setup",1
+5120,1116,"2024-09-03","2024-09-07","2024-09","Mantenimiento Preventivo","Gestión",32,"Mixto","Santino Benjamin Rojas Fernandez",True,"100.00",2,"29422.71","Estampado","Técnico Setup",1
+5121,1118,"2024-11-05","2024-11-09","2024-11","Setup de Prensa - Básico","Gestión",32,"Mixto","Josefina Gutierrez Diaz",True,"88.00",2,"33587.52","Estampado","Alimentador de Línea",1
+5122,1119,"2024-03-04","2024-03-19","2024-03","Mantenimiento Preventivo","Seguridad",120,"Online","Mateo Benjamin Francesca Godoy",True,"95.00",5,"25677.90","Estampado","Alimentador de Línea",1
+5123,1120,"2024-08-14","2024-08-24","2024-08","Setup de Prensa - Avanzado","Técnico",80,"Mixto","Josefina Benitez Moyano",True,"69.00",2,"42654.00","Estampado","Operario de Prensa",1
+5124,1120,"2025-03-19","2025-03-24","2025-03","Setup de Prensa - Básico","Seguridad",40,"Online","Isabella Catalina Benitez",True,"61.00",2,"23557.53","Estampado","Operario de Prensa",1
+5125,1120,"2025-04-10","2025-04-19","2025-04","Seguridad en Prensas","Seguridad",72,"Mixto","Tomas Rodriguez",True,"75.00",4,"22167.00","Estampado","Operario de Prensa",1
+5126,1121,"2024-11-18","2024-12-02","2024-12","Mantenimiento Preventivo","Seguridad",112,"Presencial","Juan Ignacio Lucia Quiroga",True,"73.00",4,"19379.91","Estampado","Operario de Prensa",1
+5127,1122,"2024-12-17","2024-12-24","2024-12","Seguridad en Prensas","Gestión",56,"Online","Guillermina Lautaro Gutierrez",True,"74.00",2,"16398.24","Estampado","Técnico Setup",1
+5128,1124,"2024-12-04","2024-12-10","2024-12","Mantenimiento Preventivo","Seguridad",48,"Presencial","Mateo Juan Ignacio Vargas Perez",True,"69.00",2,"34505.04","Estampado","Operario de Prensa",1
+5129,1124,"2025-01-02","2025-01-13","2025-01","Seguridad en Prensas","Gestión",88,"Mixto","Thiago Nahuel Gonzalez Cordoba",False,"88.00",4,"10207.62","Estampado","Operario de Prensa",1
+5131,1125,"2025-03-21","2025-03-24","2025-03","Seguridad en Prensas","Técnico",24,"Online","Facundo Sosa",False,"70.00",5,"25259.88","Estampado","Técnico Setup",1
+5130,1125,"2025-04-03","2025-04-18","2025-04","Setup de Prensa - Básico","Gestión",120,"Mixto","Bruno Thiago Benjamin Bravo Morales",True,"90.00",2,"37126.38","Estampado","Técnico Setup",1
+5132,1126,"2024-05-17","2024-05-25","2024-05","Setup de Prensa - Básico","Gestión",64,"Mixto","Alma Mia Lopez",True,"73.00",5,"11981.49","Estampado","Técnico Setup",1
+5133,1129,"2024-01-14","2024-01-20","2024-01","Setup de Prensa - Avanzado","Seguridad",48,"Presencial","Valentina Santino Silva",True,"92.00",2,"32119.02","Estampado","Team Leader Estampado",2
+5134,1134,"2024-03-05","2024-03-20","2024-03","Setup de Prensa - Básico","Seguridad",120,"Presencial","Francisco Gimenez Gonzalez",True,"86.00",5,"12242.07","Estampado","Especialista Setup",2
+5135,1134,"2024-12-16","2024-12-20","2024-12","Mantenimiento Preventivo","Gestión",32,"Mixto","Emma Herrera Alvarez",True,"64.00",5,"15234.09","Estampado","Especialista Setup",2
+5136,1135,"2024-08-04","2024-08-13","2024-08","Setup de Prensa - Avanzado","Gestión",72,"Mixto","Joaquin Thiago Daniel Gonzalez",True,"97.00",5,"10477.65","Estampado","Especialista Setup",2
+5138,1136,"2024-01-21","2024-01-30","2024-01","Setup de Prensa - Avanzado","Gestión",72,"Presencial","Victoria Bautista Torres Gimenez",True,"87.00",5,"16320.51","Estampado","Especialista Setup",2
+5137,1136,"2024-03-06","2024-03-16","2024-03","Setup de Prensa - Básico","Seguridad",80,"Presencial","Francisco Martinez",True,"67.00",5,"41025.75","Estampado","Especialista Setup",2
+5139,1136,"2024-08-20","2024-09-01","2024-09","Setup de Prensa - Avanzado","Calidad",96,"Presencial","Joaquin Cordoba Chavez",True,"93.00",5,"35458.08","Estampado","Especialista Setup",2
+5140,1138,"2024-10-11","2024-10-22","2024-10","Seguridad en Prensas","Técnico",88,"Presencial","Bautista Medina",True,"66.00",3,"35509.56","Estampado","Team Leader Estampado",2
+5141,1139,"2024-07-17","2024-07-20","2024-07","Setup de Prensa - Básico","Calidad",24,"Online","Thiago Nahuel Josefina Rodriguez Medina",True,"92.00",5,"26425.44","Estampado","Team Leader Estampado",2
+5142,1141,"2024-04-17","2024-04-28","2024-04","Setup de Prensa - Básico","Seguridad",88,"Mixto","Sofia Lucas Sanchez Rios",True,"92.00",3,"16736.22","Estampado","Team Leader Estampado",2
+5143,1144,"2025-03-20","2025-03-26","2025-03","Mantenimiento Preventivo","Gestión",48,"Online","Guadalupe Valdez",True,"80.00",2,"11904.78","Estampado","Team Leader Estampado",2
+5144,1147,"2024-03-06","2024-03-17","2024-03","Setup de Prensa - Avanzado","Gestión",88,"Online","Maria Paz Manuel Arias",True,"82.00",3,"30848.46","Estampado","Team Leader Estampado",2
+5146,1147,"2024-09-07","2024-09-16","2024-09","Mantenimiento Preventivo","Gestión",72,"Online","Juan Manuel Juliana Gonzalez Romero",True,"65.00",4,"42279.03","Estampado","Team Leader Estampado",2
+5145,1147,"2025-05-08","2025-05-18","2025-05","Mantenimiento Preventivo","Gestión",80,"Presencial","Benjamin Renata Martinez",False,"70.00",5,"36155.94","Estampado","Team Leader Estampado",2
+5147,1149,"2024-08-09","2024-08-16","2024-08","Setup de Prensa - Básico","Gestión",56,"Presencial","Juan Francisco Ojeda",True,"85.00",3,"36625.80","Estampado","Team Leader Estampado",2
+5148,1150,"2025-03-18","2025-04-01","2025-04","Seguridad en Prensas","Gestión",112,"Presencial","Sofia Velazquez Flores",True,"84.00",4,"44627.73","Estampado","Team Leader Estampado",2
+5149,1151,"2024-01-14","2024-01-23","2024-01","Mantenimiento Preventivo","Técnico",72,"Mixto","Renzo Fernandez Garcia",True,"91.00",3,"31152.09","Estampado","Supervisor de Estampado",3
+5150,1152,"2024-11-15","2024-11-18","2024-11","Setup de Prensa - Básico","Técnico",24,"Mixto","Mateo Valentin Escobar Gutierrez",True,"93.00",2,"23481.09","Estampado","Supervisor de Estampado",3
+5152,1153,"2024-07-17","2024-07-25","2024-07","Setup de Prensa - Básico","Calidad",64,"Mixto","Bautista Ortiz",True,"78.00",3,"14545.11","Estampado","Supervisor de Estampado",3
+5151,1153,"2024-10-20","2024-11-03","2024-11","Seguridad en Prensas","Técnico",112,"Presencial","Malena Lautaro Ezequiel Nuñez Gimenez",True,"73.00",3,"24478.83","Estampado","Supervisor de Estampado",3
+5153,1154,"2024-05-17","2024-05-28","2024-05","Seguridad en Prensas","Gestión",88,"Mixto","Antonella Fernandez",False,"78.00",2,"22519.32","Estampado","Supervisor de Estampado",3
+5154,1155,"2025-02-12","2025-02-24","2025-02","Seguridad en Prensas","Calidad",96,"Mixto","Thiago Benjamin Josefina Figueroa Quiroga",True,"63.00",3,"16691.37","Estampado","Supervisor de Estampado",3
+5155,1156,"2024-03-03","2024-03-17","2024-03","Seguridad en Prensas","Gestión",112,"Online","Juan Cruz Victoria Rodriguez Diaz",True,"61.00",5,"25206.54","Estampado","Supervisor de Estampado",3
+5156,1156,"2024-09-05","2024-09-13","2024-09","Mantenimiento Preventivo","Gestión",64,"Mixto","Sr(a). Felipe Lopez",True,"68.00",4,"35116.20","Estampado","Supervisor de Estampado",3
+5157,1157,"2024-08-05","2024-08-13","2024-08","Seguridad en Prensas","Técnico",64,"Online","Josefina Gomez",True,"86.00",4,"20022.24","Estampado","Gerente de Estampado",4
+5158,1158,"2024-05-05","2024-05-12","2024-05","Setup de Prensa - Básico","Gestión",56,"Online","Ciro Benjamin Sofia Sanchez Perez",True,"77.00",2,"39872.31","Estampado","Gerente de Estampado",4
+5159,1160,"2024-10-04","2024-10-16","2024-10","Soldadura MIG/MAG - Básico","Gestión",96,"Presencial","Catalina Cordoba Sanchez",True,"71.00",3,"14464.26","Ensamble","Operario de Línea",1
+5161,1161,"2024-03-11","2024-03-22","2024-03","Soldadura MIG/MAG - Básico","Gestión",88,"Online","Catalina Valentina Sosa",False,"95.00",5,"12720.36","Ensamble","Operario de Línea",1
+5160,1161,"2025-01-14","2025-01-19","2025-01","Ensamble de Componentes","Seguridad",40,"Online","Sr(a). Delfina Mendez",True,"66.00",5,"37357.44","Ensamble","Operario de Línea",1
+5162,1164,"2024-11-17","2024-11-24","2024-11","Soldadura MIG/MAG - Básico","Seguridad",56,"Presencial","Sr(a). Agostina Perez",True,"90.00",5,"26484.45","Ensamble","Operario de Línea",1
+5163,1165,"2025-03-04","2025-03-15","2025-03","Control de Calidad en Línea","Calidad",88,"Mixto","Martina Lola Acosta",True,"98.00",2,"18142.23","Ensamble","Soldador",1
+5015,1166,"2024-10-18","2024-11-10","2024-11","Advanced Welding Certification (AWS)","Técnico",134,"Presencial","Instructor Externo AWS",True,"75.00",4,"92660.31","Ensamble","Soldador",1
+5164,1166,"2025-01-06","2025-01-20","2025-01","Advanced Welding Certification (AWS)","Calidad",112,"Mixto","Sr(a). Catalina Gomez",True,"100.00",5,"12635.88","Ensamble","Soldador",1
+5165,1167,"2024-06-04","2024-06-16","2024-06","Soldadura MIG/MAG - Básico","Seguridad",96,"Mixto","Juan Ignacio Isabella Vargas",True,"81.00",4,"17250.00","Ensamble","Soldador Certificado",1
+5166,1168,"2024-09-05","2024-09-10","2024-09","Control de Calidad en Línea","Gestión",40,"Online","Valentino Gael Torres",True,"62.00",5,"29219.01","Ensamble","Soldador",1
+5167,1168,"2024-10-14","2024-10-23","2024-10","Soldadura MIG/MAG - Básico","Técnico",72,"Mixto","Clara Perez Correa",True,"95.00",4,"37632.60","Ensamble","Soldador",1
+5168,1169,"2024-03-06","2024-03-09","2024-03","Soldadura MIG/MAG - Básico","Calidad",24,"Presencial","Máximo Diaz Moreno",True,"84.00",2,"40012.17","Ensamble","Soldador Certificado",1
+5169,1169,"2024-10-13","2024-10-28","2024-10","Ensamble de Componentes","Seguridad",120,"Online","Catalina Thiago Leonel Correa",False,"88.00",2,"32242.20","Ensamble","Soldador Certificado",1
+5170,1170,"2024-11-06","2024-11-17","2024-11","Control de Calidad en Línea","Gestión",88,"Online","Martina Medina Lopez",True,"92.00",2,"38023.26","Ensamble","Soldador Certificado",1
+5171,1172,"2024-10-06","2024-10-15","2024-10","Soldadura MIG/MAG - Básico","Calidad",72,"Mixto","Dr(a). Gael Ruiz",True,"92.00",4,"38926.38","Ensamble","Soldador",1
+5021,1172,"2024-11-16","2024-12-11","2024-12","Advanced Welding Certification (AWS)","Técnico",160,"Presencial","Instructor Externo AWS",True,"90.00",5,"77771.13","Ensamble","Soldador",1
+5172,1172,"2024-12-10","2024-12-14","2024-12","Advanced Welding Certification (AWS)","Gestión",32,"Presencial","Olivia Flores Sosa",True,"95.00",2,"12797.79","Ensamble","Soldador",1
+5173,1173,"2024-08-19","2024-08-30","2024-08","Control de Calidad en Línea","Seguridad",88,"Online","Victoria Tomàs Fernandez",True,"62.00",3,"30899.97","Ensamble","Soldador Certificado",1
+5012,1173,"2024-11-04","2024-11-26","2024-11","Advanced Welding Certification (AWS)","Técnico",134,"Presencial","Instructor Externo AWS",True,"94.00",4,"96925.23","Ensamble","Soldador Certificado",1
+5174,1174,"2024-10-20","2024-11-03","2024-11","Control de Calidad en Línea","Calidad",112,"Presencial","Sr(a). Lara Aguirre",True,"82.00",5,"10369.05","Ensamble","Soldador Certificado",1
+5175,1177,"2025-05-04","2025-05-18","2025-05","Soldadura MIG/MAG - Básico","Gestión",112,"Presencial","Dr(a). Isabella Garcia",True,"98.00",5,"15408.21","Ensamble","Soldador",1
+5176,1179,"2024-10-15","2024-10-19","2024-10","Advanced Welding Certification (AWS)","Gestión",32,"Presencial","Ciro Santino Benjamin Figueroa",True,"66.00",2,"41497.08","Ensamble","Soldador",1
+5023,1179,"2024-11-10","2024-11-30","2024-11","Advanced Welding Certification (AWS)","Técnico",144,"Presencial","Instructor AWS Certificado",True,"89.00",5,"100177.92","Ensamble","Soldador",1
+5177,1180,"2024-04-05","2024-04-20","2024-04","Advanced Welding Certification (AWS)","Técnico",120,"Mixto","Agustín Benjamin Ezequiel Arias",True,"99.00",5,"10309.92","Ensamble","Soldador",1
+5024,1180,"2024-10-13","2024-11-04","2024-11","Advanced Welding Certification (AWS)","Técnico",126,"Presencial","Instructor AWS Certificado",True,"77.00",5,"93662.37","Ensamble","Soldador",1
+5178,1181,"2024-10-16","2024-10-20","2024-10","Ensamble de Componentes","Calidad",32,"Online","Sofia Belen Sosa",True,"72.00",4,"26882.25","Ensamble","Soldador Certificado",1
+5179,1182,"2024-03-11","2024-03-19","2024-03","Control de Calidad en Línea","Calidad",64,"Mixto","Dr(a). Alma Ortiz",True,"60.00",4,"13323.57","Ensamble","Operario de Línea",1
+5002,1184,"2024-11-17","2024-12-02","2024-12","Advanced Welding Certification (AWS)","Técnico",124,"Presencial","Instructor AWS Certificado",True,"82.00",4,"103776.03","Ensamble","Soldador Certificado",1
+5180,1185,"2024-01-13","2024-01-22","2024-01","Soldadura MIG/MAG - Básico","Seguridad",72,"Presencial","Francesca Joaquin Sanchez Diaz",True,"85.00",3,"35198.97","Ensamble","Soldador",1
+5181,1187,"2024-01-09","2024-01-15","2024-01","Soldadura MIG/MAG - Básico","Seguridad",48,"Online","Isabella Dylan Ezequiel Pereyra Vazquez",True,"90.00",5,"32922.60","Ensamble","Soldador",1
+5005,1188,"2024-10-03","2024-10-25","2024-10","Advanced Welding Certification (AWS)","Técnico",136,"Presencial","Instructor Externo AWS",True,"79.00",5,"79935.99","Ensamble","Soldador",1
+5182,1189,"2025-02-02","2025-02-11","2025-02","Ensamble de Componentes","Técnico",72,"Presencial","Martin Santino Ferreyra",True,"99.00",2,"9276.36","Ensamble","Operario de Línea",1
+5022,1190,"2024-10-04","2024-10-20","2024-10","Advanced Welding Certification (AWS)","Técnico",144,"Presencial","Instructor AWS Certificado",True,"81.00",4,"79352.61","Ensamble","Soldador Certificado",1
+5183,1190,"2025-01-17","2025-01-22","2025-01","Advanced Welding Certification (AWS)","Calidad",40,"Mixto","Julia Sol Ponce Coronel",True,"67.00",4,"39391.02","Ensamble","Soldador Certificado",1
+5184,1190,"2025-02-03","2025-02-09","2025-02","Ensamble de Componentes","Seguridad",48,"Online","Dante Lautaro Nahuel Alvarez",True,"65.00",5,"38054.10","Ensamble","Soldador Certificado",1
+5185,1191,"2024-07-12","2024-07-22","2024-07","Soldadura MIG/MAG - Básico","Calidad",80,"Mixto","Joaquin Mia Cordoba",True,"74.00",4,"39152.34","Ensamble","Operario de Línea",1
+5186,1194,"2025-03-13","2025-03-16","2025-03","Control de Calidad en Línea","Seguridad",24,"Online","Uma  Martina Quiroga Duarte",True,"81.00",3,"29298.84","Ensamble","Operario de Línea",1
+5017,1195,"2024-11-16","2024-12-08","2024-12","Advanced Welding Certification (AWS)","Técnico",154,"Presencial","Instructor AWS Certificado",True,"77.00",5,"103182.78","Ensamble","Soldador",1
+5187,1197,"2024-03-13","2024-03-18","2024-03","Ensamble de Componentes","Gestión",40,"Online","Sr(a). Lucas Lopez",True,"85.00",4,"42773.34","Ensamble","Operario de Línea",1
+5008,1198,"2024-10-11","2024-11-02","2024-11","Advanced Welding Certification (AWS)","Técnico",131,"Presencial","Instructor Externo AWS",True,"80.00",5,"83596.80","Ensamble","Soldador",1
+5014,1199,"2024-10-21","2024-11-11","2024-11","Advanced Welding Certification (AWS)","Técnico",134,"Presencial","Instructor AWS Certificado",True,"94.00",5,"86115.06","Ensamble","Soldador",1
+5188,1199,"2024-12-20","2024-12-29","2024-12","Ensamble de Componentes","Técnico",72,"Online","Juan Pablo Lopez",True,"84.00",3,"25419.24","Ensamble","Soldador",1
+5190,1200,"2024-03-04","2024-03-14","2024-03","Control de Calidad en Línea","Técnico",80,"Online","Dr(a). Benjamin Avila",True,"72.00",5,"42817.26","Ensamble","Soldador",1
+5189,1200,"2024-07-21","2024-07-27","2024-07","Soldadura MIG/MAG - Básico","Técnico",48,"Mixto","Catalina Martinez Diaz",True,"69.00",3,"19025.76","Ensamble","Soldador",1
+5007,1200,"2024-10-12","2024-11-02","2024-11","Advanced Welding Certification (AWS)","Técnico",150,"Presencial","Instructor Externo AWS",True,"93.00",5,"83203.14","Ensamble","Soldador",1
+5192,1201,"2024-07-15","2024-07-18","2024-07","Control de Calidad en Línea","Técnico",24,"Online","Isabella Felipe Vega Fernandez",True,"99.00",4,"22102.41","Ensamble","Operario de Línea",1
+5191,1201,"2024-09-07","2024-09-22","2024-09","Soldadura MIG/MAG - Básico","Técnico",120,"Online","Micaela Alma Lopez",True,"97.00",3,"38494.50","Ensamble","Operario de Línea",1
+5193,1202,"2024-07-20","2024-07-31","2024-07","Control de Calidad en Línea","Gestión",88,"Presencial","Thiago Leonel Guzman Campos",True,"78.00",2,"14065.44","Ensamble","Operario de Línea",1
+5195,1203,"2024-08-06","2024-08-11","2024-08","Ensamble de Componentes","Gestión",40,"Presencial","Valentino Mateo Duarte Arias",True,"83.00",2,"24648.63","Ensamble","Soldador Certificado",1
+5194,1203,"2024-11-14","2024-11-29","2024-11","Control de Calidad en Línea","Calidad",120,"Online","Federico Antonella Nuñez Romero",True,"91.00",2,"30868.32","Ensamble","Soldador Certificado",1
+5196,1205,"2024-03-11","2024-03-18","2024-03","Advanced Welding Certification (AWS)","Seguridad",56,"Mixto","Lara Lopez",False,"79.00",4,"39274.92","Ensamble","Soldador",1
+5020,1205,"2024-10-08","2024-10-27","2024-10","Advanced Welding Certification (AWS)","Técnico",154,"Presencial","Instructor Externo AWS",True,"81.00",5,"95202.51","Ensamble","Soldador",1
+5197,1206,"2024-08-05","2024-08-13","2024-08","Ensamble de Componentes","Gestión",64,"Online","Dr(a). Delfina Nuñez",True,"83.00",4,"29453.34","Ensamble","Soldador Certificado",1
+5200,1209,"2024-03-15","2024-03-24","2024-03","Soldadura MIG/MAG - Básico","Calidad",72,"Mixto","Mia Jazmin Vazquez",True,"61.00",3,"35450.52","Ensamble","Soldador",1
+5198,1209,"2024-05-02","2024-05-12","2024-05","Ensamble de Componentes","Calidad",80,"Presencial","Olivia Abril Garcia",True,"78.00",5,"14889.78","Ensamble","Soldador",1
+5016,1209,"2024-11-21","2024-12-14","2024-12","Advanced Welding Certification (AWS)","Técnico",122,"Presencial","Instructor Externo AWS",True,"94.00",4,"93330.21","Ensamble","Soldador",1
+5199,1209,"2025-03-18","2025-03-24","2025-03","Advanced Welding Certification (AWS)","Calidad",48,"Online","Sebastian Santino Agustin Duarte",True,"67.00",3,"36504.87","Ensamble","Soldador",1
+5201,1210,"2024-03-17","2024-03-22","2024-03","Soldadura MIG/MAG - Básico","Calidad",40,"Mixto","Sr(a). Joaquin Sanchez",True,"76.00",5,"43661.40","Ensamble","Operario de Línea",1
+5202,1211,"2024-01-03","2024-01-11","2024-01","Ensamble de Componentes","Seguridad",64,"Mixto","Sr(a). Luca Gomez",True,"70.00",3,"14880.84","Ensamble","Operario de Línea",1
+5203,1212,"2024-09-11","2024-09-26","2024-09","Ensamble de Componentes","Técnico",120,"Presencial","Valentino Villalba",True,"73.00",4,"26328.03","Ensamble","Soldador Certificado",1
+5204,1213,"2024-04-12","2024-04-18","2024-04","Control de Calidad en Línea","Gestión",48,"Mixto","Lautaro Juan Cruz Godoy",True,"71.00",3,"32058.33","Ensamble","Operario de Línea",1
+5205,1213,"2025-02-04","2025-02-13","2025-02","Ensamble de Componentes","Calidad",72,"Presencial","Gael Carrizo Ojeda",True,"67.00",4,"21937.26","Ensamble","Operario de Línea",1
+5206,1214,"2024-04-14","2024-04-17","2024-04","Ensamble de Componentes","Calidad",24,"Presencial","Tomàs Thiago Benjamin Martinez Rodriguez",True,"83.00",4,"21592.86","Ensamble","Operario de Línea",1
+5207,1214,"2025-04-12","2025-04-24","2025-04","Soldadura MIG/MAG - Básico","Técnico",96,"Presencial","Maia Joaquín Gonzalez Benitez",False,"90.00",5,"33625.77","Ensamble","Operario de Línea",1
+5208,1215,"2024-03-05","2024-03-20","2024-03","Soldadura MIG/MAG - Básico","Seguridad",120,"Presencial","León Cruz",True,"73.00",3,"35514.30","Ensamble","Soldador Certificado",1
+5003,1216,"2024-11-21","2024-12-08","2024-12","Advanced Welding Certification (AWS)","Técnico",154,"Presencial","Instructor Externo AWS",True,"93.00",4,"92826.12","Ensamble","Soldador",1
+5209,1218,"2025-01-05","2025-01-20","2025-01","Control de Calidad en Línea","Gestión",120,"Presencial","Justina Sosa",True,"65.00",5,"16448.97","Ensamble","Soldador",1
+5210,1221,"2024-01-16","2024-01-23","2024-01","Control de Calidad en Línea","Técnico",56,"Presencial","Santino Suarez",True,"93.00",4,"10335.66","Ensamble","Soldador Certificado",1
+5212,1226,"2024-07-09","2024-07-21","2024-07","Advanced Welding Certification (AWS)","Gestión",96,"Online","Juana Sanchez Duarte",True,"96.00",4,"18630.30","Ensamble","Soldador Certificado",1
+5213,1226,"2024-09-15","2024-09-23","2024-09","Advanced Welding Certification (AWS)","Técnico",64,"Online","Alma Paez Lopez",True,"95.00",4,"10851.06","Ensamble","Soldador Certificado",1
+5011,1226,"2024-11-14","2024-11-30","2024-11","Advanced Welding Certification (AWS)","Técnico",151,"Presencial","Instructor AWS Certificado",True,"91.00",4,"84156.15","Ensamble","Soldador Certificado",1
+5211,1226,"2025-01-15","2025-01-23","2025-01","Soldadura MIG/MAG - Básico","Calidad",64,"Presencial","Sr(a). Mateo Rodriguez",True,"84.00",3,"14256.09","Ensamble","Soldador Certificado",1
+5214,1229,"2024-03-15","2024-03-20","2024-03","Soldadura MIG/MAG - Básico","Gestión",40,"Online","Manuel Mendoza Gomez",True,"98.00",3,"22120.23","Ensamble","Soldador",1
+5004,1229,"2024-10-09","2024-11-01","2024-11","Advanced Welding Certification (AWS)","Técnico",127,"Presencial","Instructor Externo AWS",True,"95.00",5,"83339.22","Ensamble","Soldador",1
+5215,1230,"2024-12-15","2024-12-20","2024-12","Control de Calidad en Línea","Seguridad",40,"Online","Dr(a). Federico Benitez",True,"91.00",2,"11497.02","Ensamble","Operario de Línea",1
+5216,1234,"2024-09-18","2024-09-26","2024-09","Advanced Welding Certification (AWS)","Técnico",64,"Online","Sofía Lorenzo Rodriguez",True,"81.00",5,"27184.20","Ensamble","Soldador",1
+5013,1234,"2024-10-20","2024-11-06","2024-11","Advanced Welding Certification (AWS)","Técnico",138,"Presencial","Instructor Externo AWS",True,"83.00",4,"99374.85","Ensamble","Soldador",1
+5001,1236,"2024-10-12","2024-11-03","2024-11","Advanced Welding Certification (AWS)","Técnico",155,"Presencial","Instructor Externo AWS",True,"84.00",4,"79539.18","Ensamble","Soldador Certificado",1
+5219,1236,"2024-11-03","2024-11-07","2024-11","Advanced Welding Certification (AWS)","Seguridad",32,"Online","Isabella Silva Mansilla",True,"69.00",3,"16091.10","Ensamble","Soldador Certificado",1
+5218,1236,"2024-12-17","2024-12-22","2024-12","Soldadura MIG/MAG - Básico","Seguridad",40,"Online","Dr(a). Antonella Garcia",True,"67.00",4,"33636.33","Ensamble","Soldador Certificado",1
+5217,1236,"2024-12-16","2024-12-26","2024-12","Soldadura MIG/MAG - Básico","Seguridad",80,"Online","Sofia Santiago Quiroga Muñoz",True,"72.00",5,"29363.88","Ensamble","Soldador Certificado",1
+5221,1237,"2024-07-14","2024-07-21","2024-07","Ensamble de Componentes","Técnico",56,"Online","Dr(a). Sofia Gonzalez",True,"90.00",5,"24846.21","Ensamble","Soldador",1
+5222,1237,"2024-09-12","2024-09-24","2024-09","Ensamble de Componentes","Técnico",96,"Mixto","Luca Maria Belen Herrera",True,"84.00",2,"28502.76","Ensamble","Soldador",1
+5000,1237,"2024-11-03","2024-11-18","2024-11","Advanced Welding Certification (AWS)","Técnico",124,"Presencial","Instructor AWS Certificado",True,"86.00",5,"75737.31","Ensamble","Soldador",1
+5220,1237,"2025-02-03","2025-02-14","2025-02","Advanced Welding Certification (AWS)","Calidad",88,"Presencial","Isabella Benjamin Rodriguez",True,"84.00",3,"31479.96","Ensamble","Soldador",1
+5010,1238,"2024-10-14","2024-10-29","2024-10","Advanced Welding Certification (AWS)","Técnico",133,"Presencial","Instructor Externo AWS",True,"79.00",4,"94755.63","Ensamble","Soldador",1
+5018,1239,"2024-11-10","2024-12-04","2024-12","Advanced Welding Certification (AWS)","Técnico",139,"Presencial","Instructor AWS Certificado",True,"83.00",5,"79226.73","Ensamble","Soldador",1
+5223,1240,"2024-05-02","2024-05-12","2024-05","Control de Calidad en Línea","Calidad",80,"Online","Julieta Ruiz Aguirre",True,"64.00",5,"38931.33","Ensamble","Operario de Línea",1
+5019,1241,"2024-11-09","2024-12-01","2024-12","Advanced Welding Certification (AWS)","Técnico",129,"Presencial","Instructor AWS Certificado",True,"92.00",4,"79907.37","Ensamble","Soldador Certificado",1
+5224,1242,"2024-10-09","2024-10-21","2024-10","Soldadura MIG/MAG - Básico","Seguridad",96,"Online","Catalina Juan Pablo Lopez Cruz",True,"80.00",2,"41438.25","Ensamble","Soldador",1
+5225,1244,"2025-02-08","2025-02-22","2025-02","Control de Calidad en Línea","Gestión",112,"Presencial","Santiago Martina Benitez Perez",True,"90.00",5,"11019.78","Ensamble","Soldador",1
+5006,1245,"2024-11-08","2024-11-25","2024-11","Advanced Welding Certification (AWS)","Técnico",134,"Presencial","Instructor AWS Certificado",True,"87.00",4,"103714.29","Ensamble","Soldador",1
+5226,1247,"2024-04-05","2024-04-18","2024-04","Ensamble de Componentes","Seguridad",104,"Mixto","Tiziano Felipe Quiroga Gomez",True,"62.00",3,"34432.05","Ensamble","Soldador",1
+5227,1247,"2024-04-18","2024-04-26","2024-04","Control de Calidad en Línea","Gestión",64,"Online","Micaela Renata Navarro Martinez",True,"100.00",5,"9812.13","Ensamble","Soldador",1
+5229,1248,"2024-10-02","2024-10-11","2024-10","Soldadura MIG/MAG - Básico","Calidad",72,"Mixto","Dr(a). Franco Martinez",False,"64.00",2,"33282.69","Ensamble","Operario de Línea",1
+5228,1248,"2025-04-09","2025-04-15","2025-04","Control de Calidad en Línea","Seguridad",48,"Mixto","Maite Maldonado Flores",True,"67.00",5,"35362.53","Ensamble","Operario de Línea",1
+5231,1249,"2024-01-16","2024-01-23","2024-01","Control de Calidad en Línea","Gestión",56,"Mixto","Sr(a). Juan Ignacio Navarro",True,"84.00",4,"22997.88","Ensamble","Operario de Línea",1
+5230,1249,"2024-11-04","2024-11-10","2024-11","Soldadura MIG/MAG - Básico","Técnico",48,"Online","Bautista Alvaro Vera Gimenez",True,"86.00",5,"44910.51","Ensamble","Operario de Línea",1
+5232,1250,"2025-02-19","2025-03-05","2025-03","Soldadura MIG/MAG - Básico","Seguridad",112,"Online","Santino Agustin Mateo Diaz",True,"98.00",4,"31309.26","Ensamble","Soldador",1
+5233,1250,"2025-03-15","2025-03-23","2025-03","Ensamble de Componentes","Seguridad",64,"Presencial","Juan Ignacio Pedro Olivera",True,"64.00",5,"34827.09","Ensamble","Soldador",1
+5234,1251,"2024-03-11","2024-03-24","2024-03","Soldadura MIG/MAG - Básico","Calidad",104,"Online","Sofia Paz",True,"75.00",3,"41498.85","Ensamble","Operario de Línea",1
+5235,1252,"2024-07-05","2024-07-14","2024-07","Control de Calidad en Línea","Seguridad",72,"Mixto","Zoe Jazmin Valentina Bustos",True,"75.00",5,"14058.87","Ensamble","Soldador Certificado",1
+5236,1252,"2024-09-17","2024-09-20","2024-09","Ensamble de Componentes","Técnico",24,"Mixto","Catalina Castro Molina",True,"82.00",2,"16041.66","Ensamble","Soldador Certificado",1
+5237,1253,"2024-04-21","2024-04-24","2024-04","Soldadura MIG/MAG - Básico","Seguridad",24,"Online","Maximo Bastian Gonzalez Quiroga",True,"70.00",2,"43428.66","Ensamble","Operario de Línea",1
+5238,1255,"2024-04-15","2024-04-21","2024-04","Soldadura MIG/MAG - Básico","Seguridad",48,"Presencial","Dr(a). Santino Fernandez",True,"74.00",5,"11385.99","Ensamble","Operario de Línea",1
+5239,1256,"2024-04-21","2024-04-28","2024-04","Control de Calidad en Línea","Técnico",56,"Presencial","Sr(a). Carmela Ortiz",True,"82.00",5,"30959.49","Ensamble","Soldador Certificado",1
+5241,1258,"2024-01-18","2024-02-02","2024-02","Soldadura MIG/MAG - Básico","Calidad",120,"Presencial","Thiago Benjamin Ferreyra",True,"86.00",2,"25802.85","Ensamble","Soldador Certificado",1
+5240,1258,"2024-12-09","2024-12-22","2024-12","Soldadura MIG/MAG - Básico","Técnico",104,"Online","Martín Aguero Lucero",True,"70.00",2,"21589.71","Ensamble","Soldador Certificado",1
+5243,1259,"2024-03-17","2024-03-30","2024-03","Control de Calidad en Línea","Técnico",104,"Online","Ana Paula Thiago Ezequiel Ruiz",True,"67.00",4,"43319.64","Ensamble","Operario de Línea",1
+5242,1259,"2024-07-06","2024-07-12","2024-07","Ensamble de Componentes","Calidad",48,"Online","Dr(a). Martina Perez",True,"69.00",3,"33095.16","Ensamble","Operario de Línea",1
+5244,1261,"2025-01-12","2025-01-22","2025-01","Soldadura MIG/MAG - Básico","Gestión",80,"Online","Mateo Agustin Romero",True,"76.00",2,"23711.79","Ensamble","Operario de Línea",1
+5009,1262,"2024-11-06","2024-11-29","2024-11","Advanced Welding Certification (AWS)","Técnico",135,"Presencial","Instructor Externo AWS",True,"82.00",5,"97398.78","Ensamble","Soldador",1
+5245,1263,"2024-09-07","2024-09-11","2024-09","Soldadura MIG/MAG - Básico","Gestión",32,"Mixto","Isabella Agustin Perez",True,"76.00",2,"44319.57","Ensamble","Operario de Línea",1
+5246,1265,"2024-10-18","2024-10-23","2024-10","Soldadura MIG/MAG - Básico","Técnico",40,"Mixto","Benjamin Sara Sanchez Garcia",True,"64.00",3,"37319.01","Ensamble","Soldador Certificado",1
+5247,1266,"2024-03-21","2024-03-28","2024-03","Control de Calidad en Línea","Calidad",56,"Presencial","Alma Mia Castillo",True,"60.00",3,"16840.62","Ensamble","Operario de Línea",1
+5248,1268,"2024-07-14","2024-07-24","2024-07","Control de Calidad en Línea","Técnico",80,"Mixto","Valentino Martin Acosta",True,"83.00",3,"40210.80","Ensamble","Soldador",1
+5249,1270,"2024-10-18","2024-10-29","2024-10","Soldadura MIG/MAG - Básico","Seguridad",88,"Presencial","Thiago Benjamin Ciro Moreno Lopez",True,"82.00",3,"18507.36","Ensamble","Team Leader Ensamble",2
+5250,1271,"2024-01-18","2024-01-28","2024-01","Soldadura MIG/MAG - Básico","Seguridad",80,"Presencial","Ian Ezequiel Lola Suarez",True,"85.00",2,"40477.95","Ensamble","Team Leader Ensamble",2
+5251,1274,"2024-03-03","2024-03-15","2024-03","Soldadura MIG/MAG - Básico","Gestión",96,"Mixto","Dr(a). Tobias Gutierrez",True,"68.00",5,"25978.44","Ensamble","Team Leader Ensamble",2
+5252,1278,"2024-11-13","2024-11-23","2024-11","Ensamble de Componentes","Técnico",80,"Mixto","Bautista Paloma Ruiz",True,"79.00",5,"12001.59","Ensamble","Team Leader Ensamble",2
+5253,1279,"2025-01-11","2025-01-22","2025-01","Control de Calidad en Línea","Calidad",88,"Presencial","Sr(a). Joaquin Hernandez",True,"76.00",5,"30140.64","Ensamble","Team Leader Ensamble",2
+5254,1280,"2024-03-12","2024-03-23","2024-03","Control de Calidad en Línea","Técnico",88,"Mixto","Luana Valentina Medina",True,"100.00",3,"22966.08","Ensamble","Team Leader Ensamble",2
+5255,1282,"2024-09-18","2024-09-23","2024-09","Ensamble de Componentes","Técnico",40,"Presencial","Federico Victoria Paz Gimenez",True,"82.00",3,"11530.20","Ensamble","Team Leader Ensamble",2
+5258,1288,"2024-01-19","2024-01-27","2024-01","Control de Calidad en Línea","Seguridad",64,"Online","Dr(a). Lautaro Miranda",True,"93.00",5,"34470.66","Ensamble","Supervisor de Ensamble",3
+5256,1288,"2024-12-17","2024-12-23","2024-12","Soldadura MIG/MAG - Básico","Seguridad",48,"Presencial","Thiago Ezequiel Martinez Aguirre",True,"96.00",5,"36994.32","Ensamble","Supervisor de Ensamble",3
+5257,1288,"2025-04-05","2025-04-16","2025-04","Ensamble de Componentes","Calidad",88,"Presencial","Joaquin Aguero",True,"78.00",3,"11985.45","Ensamble","Supervisor de Ensamble",3
+5259,1289,"2025-03-03","2025-03-07","2025-03","Ensamble de Componentes","Calidad",32,"Presencial","Lautaro Ezequiel Luciano Garcia Alvarez",True,"68.00",5,"10424.37","Ensamble","Supervisor de Ensamble",3
+5260,1292,"2024-05-03","2024-05-06","2024-05","Ensamble de Componentes","Seguridad",24,"Online","Elena Fausto Diaz",True,"93.00",2,"28944.93","Ensamble","Supervisor de Ensamble",3
+5261,1293,"2024-07-19","2024-07-24","2024-07","Soldadura MIG/MAG - Básico","Técnico",40,"Mixto","Lara Agostina Perez",True,"86.00",5,"34057.74","Ensamble","Gerente de Ensamble",4
+5262,1294,"2024-08-10","2024-08-24","2024-08","Soldadura MIG/MAG - Básico","Técnico",112,"Online","Agustina Guzman",True,"60.00",2,"14389.77","Ensamble","Gerente de Ensamble",4
+5263,1294,"2025-03-03","2025-03-18","2025-03","Control de Calidad en Línea","Seguridad",120,"Online","Agustin Fernandez Lopez",True,"63.00",5,"32240.79","Ensamble","Gerente de Ensamble",4
+5264,1296,"2024-08-16","2024-08-19","2024-08","Control de Calidad Pintura","Gestión",24,"Online","Francisco Cabrera Leiva",True,"60.00",5,"11332.14","Pintura","Preparador de Superficie",1
+5265,1297,"2024-11-06","2024-11-15","2024-11","Control de Calidad Pintura","Calidad",72,"Mixto","Pedro Thiago Sosa Martinez",True,"81.00",5,"43043.73","Pintura","Operario de Cabina",1
+5266,1299,"2024-03-05","2024-03-10","2024-03","Preparación de Superficie","Técnico",40,"Online","Julieta Gutierrez",True,"80.00",4,"21453.78","Pintura","Preparador de Superficie",1
+5267,1299,"2024-07-03","2024-07-17","2024-07","Control de Calidad Pintura","Calidad",112,"Presencial","Dr(a). Maria Victoria Gonzalez",True,"77.00",3,"31577.46","Pintura","Preparador de Superficie",1
+5268,1300,"2024-05-16","2024-05-19","2024-05","Aplicación de Pintura","Calidad",24,"Mixto","Lucas Mia Garcia Castillo",True,"74.00",4,"31291.71","Pintura","Preparador de Superficie",1
+5269,1302,"2024-09-10","2024-09-21","2024-09","Preparación de Superficie","Seguridad",88,"Mixto","Bautista Olivera",True,"97.00",2,"12491.25","Pintura","Operario de Cabina",1
+5270,1303,"2024-06-17","2024-06-28","2024-06","Preparación de Superficie","Técnico",88,"Mixto","Candela Thiago Benjamin Vega Escobar",True,"97.00",3,"28568.25","Pintura","Operario de Cabina",1
+5272,1304,"2024-09-03","2024-09-18","2024-09","Preparación de Superficie","Calidad",120,"Presencial","Dr(a). Antonella Peralta",True,"95.00",5,"37190.58","Pintura","Preparador de Superficie",1
+5271,1304,"2024-10-10","2024-10-16","2024-10","Aplicación de Pintura","Calidad",48,"Online","Santiago Agustina Martinez Rodriguez",True,"64.00",3,"39044.88","Pintura","Preparador de Superficie",1
+5273,1305,"2024-03-20","2024-03-26","2024-03","Preparación de Superficie","Gestión",48,"Presencial","Ambar Franco Perez",True,"72.00",4,"12667.08","Pintura","Operario de Cabina",1
+5274,1305,"2024-10-03","2024-10-15","2024-10","Aplicación de Pintura","Seguridad",96,"Presencial","Lola Ponce",True,"79.00",4,"9931.11","Pintura","Operario de Cabina",1
+5275,1306,"2024-07-19","2024-08-02","2024-08","Control de Calidad Pintura","Seguridad",112,"Presencial","Sr(a). Alma Vera",False,"73.00",5,"33462.93","Pintura","Preparador de Superficie",1
+5276,1306,"2025-03-08","2025-03-21","2025-03","Control de Calidad Pintura","Seguridad",104,"Online","Dr(a). Mia Morena Carrizo",True,"63.00",4,"38975.43","Pintura","Preparador de Superficie",1
+5278,1307,"2024-10-04","2024-10-12","2024-10","Aplicación de Pintura","Gestión",64,"Online","Sr(a). Juana Herrera",True,"79.00",3,"39443.46","Pintura","Operario de Cabina",1
+5277,1307,"2025-04-21","2025-05-05","2025-05","Aplicación de Pintura","Técnico",112,"Online","Dr(a). Juan Gabriel Mansilla",False,"94.00",2,"20644.86","Pintura","Operario de Cabina",1
+5279,1309,"2025-01-09","2025-01-18","2025-01","Aplicación de Pintura","Gestión",72,"Presencial","Lisandro Lucas Bustos Leiva",True,"93.00",5,"11156.28","Pintura","Operario de Cabina",1
+5281,1311,"2024-06-08","2024-06-21","2024-06","Control de Calidad Pintura","Gestión",104,"Online","Maia Romero",True,"96.00",3,"27371.19","Pintura","Preparador de Superficie",1
+5280,1311,"2024-08-19","2024-08-31","2024-08","Preparación de Superficie","Seguridad",96,"Mixto","Ambar Delfina Diaz Hernandez",True,"100.00",4,"24945.00","Pintura","Preparador de Superficie",1
+5282,1316,"2024-06-16","2024-06-25","2024-06","Preparación de Superficie","Calidad",72,"Mixto","Maria Victoria Malena Gomez Rodriguez",True,"66.00",5,"30412.83","Pintura","Preparador de Superficie",1
+5283,1316,"2025-02-02","2025-02-17","2025-02","Aplicación de Pintura","Gestión",120,"Mixto","Sr(a). Agustin Diaz",True,"88.00",3,"12588.96","Pintura","Preparador de Superficie",1
+5285,1317,"2024-03-20","2024-03-23","2024-03","Preparación de Superficie","Seguridad",24,"Presencial","Tiziana Fernandez Toledo",True,"67.00",3,"38688.63","Pintura","Preparador de Superficie",1
+5284,1317,"2025-03-04","2025-03-10","2025-03","Aplicación de Pintura","Seguridad",48,"Presencial","Joaquina Alvarez Garcia",True,"83.00",5,"27731.76","Pintura","Preparador de Superficie",1
+5286,1318,"2024-03-19","2024-03-28","2024-03","Aplicación de Pintura","Técnico",72,"Online","Renata Franco Barrios Medina",True,"79.00",2,"33877.35","Pintura","Preparador de Superficie",1
+5288,1319,"2024-06-14","2024-06-26","2024-06","Control de Calidad Pintura","Técnico",96,"Mixto","Josefina Isabella Acosta",True,"82.00",3,"35272.17","Pintura","Preparador de Superficie",1
+5289,1319,"2024-09-02","2024-09-10","2024-09","Preparación de Superficie","Calidad",64,"Online","Paulina Mateo Coronel",True,"96.00",3,"41304.63","Pintura","Preparador de Superficie",1
+5287,1319,"2025-03-07","2025-03-22","2025-03","Aplicación de Pintura","Técnico",120,"Online","Morena Jazmin Joaquin Rodriguez Romero",True,"92.00",4,"21612.27","Pintura","Preparador de Superficie",1
+5290,1320,"2024-06-03","2024-06-16","2024-06","Control de Calidad Pintura","Técnico",104,"Presencial","Martín Vargas",True,"99.00",3,"18730.20","Pintura","Preparador de Superficie",1
+5291,1320,"2024-12-13","2024-12-17","2024-12","Preparación de Superficie","Técnico",32,"Online","Mora Juan Manuel Ruiz",False,"70.00",5,"25370.04","Pintura","Preparador de Superficie",1
+5292,1321,"2024-10-09","2024-10-23","2024-10","Preparación de Superficie","Gestión",112,"Presencial","Olivia Gonzalez",True,"96.00",2,"24865.86","Pintura","Preparador de Superficie",1
+5293,1321,"2025-05-02","2025-05-15","2025-05","Control de Calidad Pintura","Seguridad",104,"Online","Sebastian Maria Guadalupe Paez",True,"71.00",3,"25292.52","Pintura","Preparador de Superficie",1
+5295,1322,"2024-03-08","2024-03-23","2024-03","Control de Calidad Pintura","Seguridad",120,"Online","Francisco Enzo Sanchez",True,"91.00",2,"10050.24","Pintura","Preparador de Superficie",1
+5294,1322,"2024-05-06","2024-05-15","2024-05","Preparación de Superficie","Gestión",72,"Presencial","Sr(a). Benjamin Gonzalez",False,"89.00",2,"22691.22","Pintura","Preparador de Superficie",1
+5296,1323,"2024-10-02","2024-10-08","2024-10","Aplicación de Pintura","Gestión",48,"Mixto","Olivia Nuñez Lopez",True,"83.00",4,"15405.96","Pintura","Operario de Cabina",1
+5298,1328,"2025-02-20","2025-03-04","2025-03","Aplicación de Pintura","Calidad",96,"Presencial","Dr(a). Lorenzo Castillo",True,"81.00",3,"14857.02","Pintura","Operario de Cabina",1
+5297,1328,"2025-03-21","2025-04-05","2025-04","Aplicación de Pintura","Técnico",120,"Online","Juana Garcia Ojeda",False,"78.00",2,"11176.74","Pintura","Operario de Cabina",1
+5299,1330,"2025-02-11","2025-02-20","2025-02","Aplicación de Pintura","Calidad",72,"Presencial","Alma Santino Nicolas Sosa",True,"75.00",2,"15461.94","Pintura","Operario de Cabina",1
+5300,1332,"2024-12-13","2024-12-26","2024-12","Preparación de Superficie","Seguridad",104,"Presencial","Mateo Mia Morena Correa",True,"68.00",2,"32104.20","Pintura","Operario de Cabina",1
+5301,1333,"2025-02-02","2025-02-09","2025-02","Preparación de Superficie","Calidad",56,"Mixto","Francisco Ojeda Fernandez",False,"63.00",2,"16242.06","Pintura","Operario de Cabina",1
+5302,1333,"2025-03-06","2025-03-13","2025-03","Aplicación de Pintura","Técnico",56,"Mixto","Salvador Lopez Torres",True,"69.00",2,"39457.20","Pintura","Operario de Cabina",1
+5304,1334,"2024-12-11","2024-12-17","2024-12","Preparación de Superficie","Técnico",48,"Presencial","Sr(a). Mia Gonzalez",True,"68.00",2,"29306.88","Pintura","Preparador de Superficie",1
+5303,1334,"2025-05-16","2025-05-24","2025-05","Preparación de Superficie","Técnico",64,"Mixto","Thiago Godoy Vazquez",True,"84.00",4,"18962.40","Pintura","Preparador de Superficie",1
+5305,1335,"2025-04-08","2025-04-21","2025-04","Aplicación de Pintura","Gestión",104,"Presencial","Jeremias Gonzalez Ledesma",True,"90.00",5,"13896.27","Pintura","Preparador de Superficie",1
+5306,1336,"2025-02-20","2025-03-04","2025-03","Aplicación de Pintura","Seguridad",96,"Online","Simon Gomez",True,"71.00",4,"27707.13","Pintura","Preparador de Superficie",1
+5307,1337,"2025-04-21","2025-04-24","2025-04","Preparación de Superficie","Gestión",24,"Online","Agustin Felipe Ledesma Morales",True,"89.00",5,"21533.55","Pintura","Operario de Cabina",1
+5308,1338,"2024-07-04","2024-07-13","2024-07","Control de Calidad Pintura","Técnico",72,"Online","Ciro Santino Gutierrez Rios",True,"87.00",5,"20197.50","Pintura","Preparador de Superficie",1
+5311,1339,"2024-10-11","2024-10-18","2024-10","Preparación de Superficie","Calidad",56,"Presencial","Sofia Diaz",True,"91.00",3,"11429.82","Pintura","Preparador de Superficie",1
+5309,1339,"2025-01-19","2025-01-22","2025-01","Preparación de Superficie","Seguridad",24,"Presencial","Ciro Tiziano Valentin Gutierrez",True,"96.00",2,"43622.40","Pintura","Preparador de Superficie",1
+5310,1339,"2025-04-05","2025-04-19","2025-04","Control de Calidad Pintura","Gestión",112,"Mixto","Sr(a). Emilia Caceres",True,"79.00",5,"23613.00","Pintura","Preparador de Superficie",1
+5312,1341,"2024-03-19","2024-04-03","2024-04","Preparación de Superficie","Calidad",120,"Mixto","Ludmila Renzo Sosa Ramirez",True,"86.00",2,"34673.28","Pintura","Operario de Cabina",1
+5313,1342,"2025-05-17","2025-05-23","2025-05","Control de Calidad Pintura","Calidad",48,"Presencial","Martina Guillermina Diaz",True,"66.00",4,"36526.86","Pintura","Preparador de Superficie",1
+5314,1343,"2024-06-21","2024-07-05","2024-07","Aplicación de Pintura","Gestión",112,"Mixto","Ignacio Gonzalez",True,"82.00",3,"38615.25","Pintura","Preparador de Superficie",1
+5316,1343,"2025-02-13","2025-02-21","2025-02","Preparación de Superficie","Seguridad",64,"Online","Santino Agustin Fausto Rodriguez",True,"82.00",4,"11588.97","Pintura","Preparador de Superficie",1
+5315,1343,"2025-04-05","2025-04-13","2025-04","Aplicación de Pintura","Gestión",64,"Online","Mia Morena Miranda Carrizo",True,"70.00",4,"43489.02","Pintura","Preparador de Superficie",1
+5318,1347,"2024-04-07","2024-04-11","2024-04","Preparación de Superficie","Seguridad",32,"Mixto","Thiago Benjamin Isabella Correa Hernandez",True,"60.00",3,"14619.72","Pintura","Operario de Cabina",1
+5317,1347,"2024-08-09","2024-08-14","2024-08","Control de Calidad Pintura","Gestión",40,"Mixto","Florencia Moreno Medina",True,"60.00",3,"41179.29","Pintura","Operario de Cabina",1
+5319,1349,"2025-05-21","2025-06-04","2025-06","Aplicación de Pintura","Técnico",112,"Mixto","Benicio Amparo Flores Gomez",True,"87.00",2,"11084.13","Pintura","Preparador de Superficie",1
+5320,1350,"2024-03-02","2024-03-17","2024-03","Control de Calidad Pintura","Calidad",120,"Presencial","Benjamin Fernandez Moreno",True,"84.00",5,"26061.66","Pintura","Preparador de Superficie",1
+5321,1351,"2024-04-09","2024-04-20","2024-04","Aplicación de Pintura","Seguridad",88,"Mixto","Benicio Simon Rios Lucero",True,"90.00",3,"42270.00","Pintura","Preparador de Superficie",1
+5322,1353,"2024-10-17","2024-10-22","2024-10","Preparación de Superficie","Técnico",40,"Mixto","Thiago Romero Gomez",True,"74.00",5,"30672.99","Pintura","Operario de Cabina",1
+5323,1354,"2024-05-08","2024-05-19","2024-05","Preparación de Superficie","Gestión",88,"Mixto","Luisina Perez",True,"97.00",2,"27810.06","Pintura","Operario de Cabina",1
+5324,1354,"2025-05-05","2025-05-15","2025-05","Aplicación de Pintura","Calidad",80,"Online","Luciano Suarez",True,"88.00",4,"31970.67","Pintura","Operario de Cabina",1
+5325,1355,"2024-01-10","2024-01-14","2024-01","Preparación de Superficie","Seguridad",32,"Mixto","Lara Figueroa",True,"84.00",3,"29213.79","Pintura","Operario de Cabina",1
+5326,1356,"2024-12-21","2024-12-26","2024-12","Aplicación de Pintura","Gestión",40,"Mixto","Valentino Ojeda Chavez",True,"95.00",3,"33401.52","Pintura","Preparador de Superficie",1
+5327,1357,"2025-01-10","2025-01-22","2025-01","Preparación de Superficie","Seguridad",96,"Online","Santino Thiago Emanuel Suarez",True,"88.00",2,"24243.75","Pintura","Preparador de Superficie",1
+5328,1358,"2024-07-04","2024-07-16","2024-07","Preparación de Superficie","Técnico",96,"Presencial","Dr(a). Joaquin Alvarez",True,"94.00",4,"43559.58","Pintura","Operario de Cabina",1
+5329,1359,"2025-03-10","2025-03-17","2025-03","Control de Calidad Pintura","Gestión",56,"Presencial","Tomas Morena Jazmin Lucero Ojeda",True,"95.00",2,"34029.42","Pintura","Team Leader Pintura",2
+5330,1360,"2024-08-17","2024-08-24","2024-08","Control de Calidad Pintura","Técnico",56,"Online","Jazmin Pilar Paez",True,"75.00",3,"27932.76","Pintura","Team Leader Pintura",2
+5332,1361,"2024-01-16","2024-01-21","2024-01","Aplicación de Pintura","Gestión",40,"Mixto","Benjamin Joaquina Pereyra Villalba",True,"94.00",4,"37785.96","Pintura","Team Leader Pintura",2
+5331,1361,"2024-07-14","2024-07-19","2024-07","Preparación de Superficie","Técnico",40,"Mixto","Isabella Perez",True,"88.00",5,"14433.66","Pintura","Team Leader Pintura",2
+5333,1363,"2024-03-18","2024-03-27","2024-03","Preparación de Superficie","Calidad",72,"Presencial","Sr(a). Ema Carrizo",True,"84.00",3,"29915.64","Pintura","Team Leader Pintura",2
+5334,1363,"2025-05-17","2025-05-24","2025-05","Preparación de Superficie","Seguridad",56,"Online","Maximo Luciano Rios Benitez",True,"78.00",2,"30242.22","Pintura","Team Leader Pintura",2
+5335,1365,"2024-12-20","2025-01-04","2025-01","Preparación de Superficie","Gestión",120,"Presencial","Jazmin Antonella Moreno",True,"79.00",4,"19782.45","Pintura","Team Leader Pintura",2
+5336,1366,"2024-01-13","2024-01-20","2024-01","Aplicación de Pintura","Gestión",56,"Presencial","Giuliana Lautaro Benjamin Olivera",True,"74.00",5,"26652.15","Pintura","Team Leader Pintura",2
+5338,1368,"2024-01-16","2024-01-20","2024-01","Aplicación de Pintura","Técnico",32,"Online","Mia Jazmin Aguero",False,"80.00",2,"15191.07","Pintura","Team Leader Pintura",2
+5339,1368,"2024-09-17","2024-09-22","2024-09","Preparación de Superficie","Seguridad",40,"Presencial","Gonzalo Sanchez Romero",True,"86.00",4,"37440.39","Pintura","Team Leader Pintura",2
+5337,1368,"2024-10-15","2024-10-24","2024-10","Control de Calidad Pintura","Técnico",72,"Online","Benjamin Maidana Gimenez",True,"81.00",5,"38950.68","Pintura","Team Leader Pintura",2
+5340,1369,"2025-02-14","2025-02-22","2025-02","Aplicación de Pintura","Gestión",64,"Online","Isabella Delfina Moreno Ruiz",True,"82.00",2,"33867.66","Pintura","Team Leader Pintura",2
+5342,1370,"2024-07-16","2024-07-27","2024-07","Aplicación de Pintura","Técnico",88,"Presencial","Jazmín Acosta Gomez",False,"60.00",4,"43515.66","Pintura","Supervisor de Pintura",3
+5341,1370,"2024-08-16","2024-08-26","2024-08","Control de Calidad Pintura","Gestión",80,"Mixto","Bautista Simon Silva",True,"85.00",5,"23683.86","Pintura","Supervisor de Pintura",3
+5344,1372,"2024-03-21","2024-04-03","2024-04","Preparación de Superficie","Técnico",104,"Online","Renata Castro",True,"87.00",4,"43938.03","Pintura","Supervisor de Pintura",3
+5343,1372,"2025-03-10","2025-03-13","2025-03","Aplicación de Pintura","Calidad",24,"Presencial","Thiago Valentin Gonzalez",True,"98.00",3,"21562.41","Pintura","Supervisor de Pintura",3
+5346,1374,"2024-08-15","2024-08-25","2024-08","SPC - Control Estadístico","Seguridad",80,"Presencial","Mateo Agustin Lucas Ferreyra Medina",True,"97.00",4,"37355.04","Calidad","Técnico de Laboratorio",1
+5345,1374,"2025-02-19","2025-02-23","2025-02","Auditoría Interna ISO","Seguridad",32,"Online","Ezequiel Arias Soto",True,"95.00",2,"36794.73","Calidad","Técnico de Laboratorio",1
+5348,1375,"2024-03-09","2024-03-17","2024-03","Auditoría Interna ISO","Técnico",64,"Presencial","Dr(a). Thiago Agustin Torres",True,"98.00",5,"27859.89","Calidad","Inspector de Calidad",1
+5347,1375,"2025-02-19","2025-02-28","2025-02","Auditoría Interna ISO","Seguridad",72,"Mixto","Guadalupe Isabella Diaz Acosta",True,"72.00",2,"18512.10","Calidad","Inspector de Calidad",1
+5349,1377,"2024-05-02","2024-05-06","2024-05","Metrología","Técnico",32,"Online","Juan Ignacio Coronel",True,"91.00",3,"40499.49","Calidad","Inspector de Calidad",1
+5350,1377,"2025-05-12","2025-05-17","2025-05","Auditoría Interna ISO","Seguridad",40,"Online","Benjamin Benicio Godoy",False,"79.00",5,"23963.43","Calidad","Inspector de Calidad",1
+5351,1378,"2024-09-20","2024-10-03","2024-10","SPC - Control Estadístico","Seguridad",104,"Mixto","Manuel Thiago Gomez Escobar",True,"60.00",2,"27697.14","Calidad","Inspector de Calidad",1
+5352,1379,"2024-04-04","2024-04-09","2024-04","SPC - Control Estadístico","Técnico",40,"Mixto","Valentino Vera",True,"87.00",5,"26346.54","Calidad","Inspector de Calidad",1
+5354,1380,"2024-06-05","2024-06-08","2024-06","SPC - Control Estadístico","Calidad",24,"Online","Juan Ignacio Elena Diaz",True,"72.00",2,"10440.00","Calidad","Inspector de Calidad",1
+5353,1380,"2025-05-14","2025-05-29","2025-05","SPC - Control Estadístico","Calidad",120,"Online","Santino Cabrera",True,"93.00",3,"25408.17","Calidad","Inspector de Calidad",1
+5355,1381,"2024-11-09","2024-11-15","2024-11","Auditoría Interna ISO","Gestión",48,"Online","Lucio Santino Ramirez",True,"79.00",2,"14930.43","Calidad","Técnico de Laboratorio",1
+5357,1383,"2024-11-04","2024-11-09","2024-11","Metrología","Gestión",40,"Online","Sr(a). Ciro Benjamin Gonzalez",True,"85.00",5,"40326.33","Calidad","Técnico de Laboratorio",1
+5356,1383,"2025-05-19","2025-05-22","2025-05","Metrología","Gestión",24,"Presencial","Sr(a). Thiago Nahuel Acosta",True,"98.00",3,"20918.49","Calidad","Técnico de Laboratorio",1
+5358,1385,"2024-11-19","2024-11-29","2024-11","Metrología","Técnico",80,"Presencial","Nicolas Benitez Nuñez",True,"93.00",2,"44433.96","Calidad","Técnico de Laboratorio",1
+5359,1386,"2024-03-05","2024-03-14","2024-03","Metrología","Gestión",72,"Presencial","Sr(a). Helena Lopez",True,"60.00",3,"10931.34","Calidad","Técnico de Laboratorio",1
+5360,1387,"2024-04-16","2024-04-27","2024-04","Metrología","Técnico",88,"Mixto","Santino Milagros Juarez",True,"62.00",5,"15937.65","Calidad","Inspector de Calidad",1
+5361,1388,"2024-09-04","2024-09-16","2024-09","SPC - Control Estadístico","Seguridad",96,"Mixto","Juan Bautista Olivia Chavez Avila",True,"66.00",4,"18462.72","Calidad","Inspector de Calidad",1
+5362,1388,"2024-09-14","2024-09-26","2024-09","Metrología","Calidad",96,"Online","Victoria Ciro Benjamin Valdez",True,"75.00",3,"32854.08","Calidad","Inspector de Calidad",1
+5363,1390,"2024-10-17","2024-10-26","2024-10","Auditoría Interna ISO","Calidad",72,"Presencial","Luciana Fernandez",True,"74.00",3,"20779.68","Calidad","Inspector de Calidad",1
+5364,1391,"2024-11-04","2024-11-14","2024-11","Auditoría Interna ISO","Gestión",80,"Presencial","Dr(a). Valentina Jazmin Molina",True,"97.00",3,"25664.22","Calidad","Técnico de Laboratorio",1
+5366,1392,"2024-11-14","2024-11-25","2024-11","Auditoría Interna ISO","Técnico",88,"Mixto","Dr(a). Ramiro Ayala",False,"80.00",5,"24712.92","Calidad","Inspector de Calidad",1
+5365,1392,"2024-11-15","2024-11-26","2024-11","SPC - Control Estadístico","Gestión",88,"Mixto","Luz Milagros Santiago Nicolas Morales Diaz",True,"72.00",5,"33773.94","Calidad","Inspector de Calidad",1
+5369,1393,"2024-01-07","2024-01-12","2024-01","Metrología","Calidad",40,"Mixto","Dr(a). Maria Victoria Leiva",True,"97.00",4,"31892.01","Calidad","Técnico de Laboratorio",1
+5367,1393,"2024-06-11","2024-06-22","2024-06","SPC - Control Estadístico","Gestión",88,"Mixto","Lautaro Gabriel Lara Campos",True,"93.00",2,"13499.01","Calidad","Técnico de Laboratorio",1
+5368,1393,"2024-10-05","2024-10-18","2024-10","Metrología","Calidad",104,"Presencial","Dr(a). Paloma Coronel",True,"84.00",4,"13452.03","Calidad","Técnico de Laboratorio",1
+5371,1395,"2024-01-15","2024-01-29","2024-01","Auditoría Interna ISO","Gestión",112,"Presencial","Dr(a). Enzo Flores",True,"83.00",2,"42480.06","Calidad","Técnico de Laboratorio",1
+5370,1395,"2024-07-13","2024-07-18","2024-07","SPC - Control Estadístico","Seguridad",40,"Mixto","Amparo Escobar",False,"75.00",3,"24908.13","Calidad","Técnico de Laboratorio",1
+5372,1396,"2024-05-14","2024-05-18","2024-05","Metrología","Técnico",32,"Mixto","Maximo Gonzalez Fernandez",True,"87.00",2,"37336.68","Calidad","Inspector de Calidad",1
+5373,1396,"2024-07-07","2024-07-13","2024-07","Metrología","Seguridad",48,"Online","Sofia Cardozo Lopez",True,"75.00",5,"34056.81","Calidad","Inspector de Calidad",1
+5374,1397,"2024-01-04","2024-01-19","2024-01","Auditoría Interna ISO","Gestión",120,"Presencial","Thiago Ezequiel Felipe Rodriguez Caceres",True,"65.00",3,"9813.03","Calidad","Inspector de Calidad",1
+5375,1397,"2024-04-16","2024-04-21","2024-04","Metrología","Técnico",40,"Online","Zoe Martina Correa",True,"64.00",5,"19633.17","Calidad","Inspector de Calidad",1
+5376,1398,"2024-07-19","2024-07-31","2024-07","Metrología","Gestión",96,"Presencial","Mora Peralta Castro",True,"77.00",2,"30819.69","Calidad","Inspector de Calidad",1
+5377,1399,"2024-10-11","2024-10-20","2024-10","Auditoría Interna ISO","Seguridad",72,"Presencial","Maria Emilia Lucas Martinez",True,"84.00",5,"14007.06","Calidad","Inspector de Calidad",1
+5378,1400,"2025-01-14","2025-01-20","2025-01","Auditoría Interna ISO","Técnico",48,"Online","Helena Isabella Alvarez Ramirez",True,"84.00",5,"16332.09","Calidad","Inspector de Calidad",1
+5379,1400,"2025-04-21","2025-04-25","2025-04","Metrología","Seguridad",32,"Mixto","Lucía  Isabella Villalba Diaz",True,"61.00",2,"15668.25","Calidad","Inspector de Calidad",1
+5380,1401,"2025-01-02","2025-01-14","2025-01","Auditoría Interna ISO","Seguridad",96,"Presencial","Milena Bustos",True,"89.00",3,"33853.11","Calidad","Técnico de Laboratorio",1
+5381,1402,"2024-07-20","2024-07-26","2024-07","Metrología","Técnico",48,"Mixto","Zoe Manuel Juarez Ramos",True,"81.00",4,"33038.16","Calidad","Inspector de Calidad",1
+5382,1405,"2024-10-07","2024-10-13","2024-10","Auditoría Interna ISO","Calidad",48,"Mixto","Juana Joaquin Castillo",True,"69.00",4,"9757.98","Calidad","Técnico de Laboratorio",1
+5383,1408,"2024-04-06","2024-04-19","2024-04","Metrología","Gestión",104,"Mixto","Luisina Abril Gomez",True,"61.00",2,"40821.09","Calidad","Técnico de Laboratorio",1
+5384,1409,"2024-12-11","2024-12-18","2024-12","Metrología","Técnico",56,"Mixto","Pedro Castro Fernandez",True,"74.00",3,"29811.30","Calidad","Inspector de Calidad",1
+5385,1410,"2024-06-06","2024-06-19","2024-06","SPC - Control Estadístico","Calidad",104,"Presencial","Dr(a). Benjamin Medina",True,"60.00",2,"15279.57","Calidad","Inspector de Calidad",1
+5386,1411,"2025-05-21","2025-05-27","2025-05","Auditoría Interna ISO","Gestión",48,"Online","Martina Dylan Luna",True,"63.00",3,"40450.74","Calidad","Técnico de Laboratorio",1
+5388,1412,"2024-01-14","2024-01-27","2024-01","Metrología","Gestión",104,"Online","Bautista Lucia Pereyra Campos",True,"69.00",2,"33215.73","Calidad","Inspector de Calidad",1
+5387,1412,"2024-12-16","2024-12-31","2024-12","Auditoría Interna ISO","Técnico",120,"Mixto","Dr(a). Morena Silva",True,"72.00",4,"23700.54","Calidad","Inspector de Calidad",1
+5389,1413,"2024-04-15","2024-04-25","2024-04","Metrología","Seguridad",80,"Online","Sr(a). Maia Fernandez",True,"87.00",5,"26861.55","Calidad","Inspector de Calidad",1
+5390,1414,"2024-06-19","2024-06-28","2024-06","SPC - Control Estadístico","Gestión",72,"Mixto","Dr(a). Catalina Diaz",True,"88.00",3,"38706.12","Calidad","Técnico de Laboratorio",1
+5391,1414,"2024-09-06","2024-09-10","2024-09","Auditoría Interna ISO","Técnico",32,"Mixto","Antonella Ignacio Garcia",True,"99.00",3,"12911.58","Calidad","Técnico de Laboratorio",1
+5392,1416,"2024-06-17","2024-06-29","2024-06","Auditoría Interna ISO","Calidad",96,"Presencial","Dr(a). Máximo Paz",False,"79.00",3,"33475.44","Calidad","Inspector de Calidad",1
+5393,1418,"2024-01-16","2024-01-22","2024-01","SPC - Control Estadístico","Seguridad",48,"Online","Juan Ignacio Sosa Martinez",True,"84.00",4,"40722.69","Calidad","Team Leader Calidad",2
+5395,1419,"2025-01-02","2025-01-16","2025-01","SPC - Control Estadístico","Técnico",112,"Presencial","Olivia Violeta Gomez Perez",False,"66.00",4,"9117.72","Calidad","Team Leader Calidad",2
+5394,1419,"2025-05-02","2025-05-10","2025-05","Metrología","Técnico",64,"Presencial","Sr(a). Rafael Castillo",True,"60.00",2,"41121.03","Calidad","Team Leader Calidad",2
+5396,1419,"2025-05-17","2025-05-22","2025-05","SPC - Control Estadístico","Calidad",40,"Online","Benjamin Agustina Vazquez Gutierrez",True,"66.00",5,"41507.58","Calidad","Team Leader Calidad",2
+5397,1420,"2024-01-13","2024-01-25","2024-01","Metrología","Calidad",96,"Online","Dr(a). Pilar Garcia",True,"91.00",3,"17458.92","Calidad","Team Leader Calidad",2
+5398,1421,"2025-02-11","2025-02-16","2025-02","Auditoría Interna ISO","Calidad",40,"Mixto","Juan Cruz Catalina Gomez",True,"99.00",4,"31123.56","Calidad","Team Leader Calidad",2
+5399,1424,"2025-05-11","2025-05-20","2025-05","Auditoría Interna ISO","Calidad",72,"Online","Sr(a). Lucía Diaz",True,"67.00",5,"10065.21","Calidad","Team Leader Calidad",2
+5401,1425,"2025-03-06","2025-03-15","2025-03","Metrología","Calidad",72,"Presencial","Dr(a). Mia Valentina Acuña",True,"68.00",2,"33445.44","Calidad","Supervisor de Calidad",3
+5400,1425,"2025-05-18","2025-05-30","2025-05","SPC - Control Estadístico","Gestión",96,"Mixto","Santino Ezequiel Pedro Gomez",True,"99.00",4,"12783.90","Calidad","Supervisor de Calidad",3
+5402,1426,"2024-03-11","2024-03-17","2024-03","Auditoría Interna ISO","Técnico",48,"Mixto","Benjamin Lucio Gonzalez",False,"82.00",3,"10427.31","Calidad","Supervisor de Calidad",3
+5403,1426,"2024-04-20","2024-05-05","2024-05","Auditoría Interna ISO","Técnico",120,"Online","Isabella Arias Castro",True,"86.00",2,"28521.48","Calidad","Supervisor de Calidad",3
+5404,1427,"2024-07-10","2024-07-19","2024-07","SPC - Control Estadístico","Técnico",72,"Mixto","Sr(a). Thiago Emanuel Ramirez",True,"88.00",4,"32409.36","Calidad","Gerente de Calidad",4
+5405,1427,"2025-01-04","2025-01-13","2025-01","Metrología","Seguridad",72,"Presencial","Agustín Benitez",True,"67.00",5,"42328.83","Calidad","Gerente de Calidad",4
+5407,1428,"2025-04-17","2025-04-24","2025-04","Hidráulica","Seguridad",56,"Presencial","Sr(a). Matilda Nuñez",True,"74.00",4,"19963.05","Mantenimiento Mecánico","Mecánico",1
+5406,1428,"2025-05-18","2025-05-31","2025-05","Alineación Laser","Técnico",104,"Online","Francesca Gomez Gonzalez",True,"85.00",5,"42739.74","Mantenimiento Mecánico","Mecánico",1
+5408,1429,"2025-02-20","2025-03-06","2025-03","Neumática","Calidad",112,"Mixto","Benicio Gimenez Garcia",True,"89.00",2,"33496.65","Mantenimiento Mecánico","Mecánico",1
+5409,1431,"2024-08-11","2024-08-24","2024-08","Alineación Laser","Técnico",104,"Online","Sofía Emilia Blanco Alvarez",False,"84.00",2,"18276.24","Mantenimiento Mecánico","Mecánico Especializado",1
+5411,1433,"2025-03-03","2025-03-10","2025-03","Alineación Laser","Técnico",56,"Online","Violeta Roldan",True,"66.00",2,"44615.73","Mantenimiento Mecánico","Mecánico Especializado",1
+5410,1433,"2025-05-08","2025-05-12","2025-05","Hidráulica","Seguridad",32,"Presencial","Agustin Rojas Fernandez",True,"93.00",2,"34188.90","Mantenimiento Mecánico","Mecánico Especializado",1
+5412,1435,"2024-12-18","2024-12-31","2024-12","Neumática","Técnico",104,"Online","Rafael Felipe Peralta Avila",True,"78.00",2,"32068.86","Mantenimiento Mecánico","Mecánico Especializado",1
+5413,1436,"2024-01-12","2024-01-23","2024-01","Alineación Laser","Calidad",88,"Online","Gino Benjamin Hernandez Fernandez",True,"68.00",3,"44744.28","Mantenimiento Mecánico","Mecánico Especializado",1
+5414,1438,"2024-05-19","2024-05-31","2024-05","Alineación Laser","Técnico",96,"Presencial","Benjamin Luna Rojas",True,"87.00",4,"38196.30","Mantenimiento Mecánico","Mecánico",1
+5415,1439,"2024-08-18","2024-09-01","2024-09","Hidráulica","Seguridad",112,"Online","Julieta Cardozo Barrios",True,"80.00",5,"19801.95","Mantenimiento Mecánico","Mecánico",1
+5417,1440,"2024-06-19","2024-06-30","2024-06","Hidráulica","Gestión",88,"Presencial","Delfina Miguel Angel Diaz",True,"76.00",5,"35833.59","Mantenimiento Mecánico","Mecánico",1
+5416,1440,"2024-07-08","2024-07-18","2024-07","Neumática","Seguridad",80,"Presencial","Delfina Mia Morena Roldan Fernandez",True,"95.00",3,"37056.66","Mantenimiento Mecánico","Mecánico",1
+5418,1442,"2024-04-21","2024-05-04","2024-05","Hidráulica","Calidad",104,"Mixto","Felicitas Tiziano Rodriguez",True,"86.00",2,"26007.15","Mantenimiento Mecánico","Mecánico Especializado",1
+5419,1442,"2024-10-17","2024-10-30","2024-10","Alineación Laser","Gestión",104,"Online","Dr(a). Mia Valentina Rodriguez",True,"64.00",3,"12347.01","Mantenimiento Mecánico","Mecánico Especializado",1
+5420,1444,"2025-01-06","2025-01-10","2025-01","Hidráulica","Gestión",32,"Presencial","Valentina Diaz Silva",True,"99.00",4,"38558.34","Mantenimiento Mecánico","Mecánico Especializado",1
+5423,1445,"2024-07-14","2024-07-29","2024-07","Hidráulica","Gestión",120,"Presencial","Dr(a). Juliana Fernandez",False,"79.00",4,"26734.65","Mantenimiento Mecánico","Mecánico Especializado",1
+5421,1445,"2025-02-07","2025-02-22","2025-02","Neumática","Seguridad",120,"Online","Benicio Felicitas Martinez Garcia",True,"91.00",5,"30582.21","Mantenimiento Mecánico","Mecánico Especializado",1
+5422,1445,"2025-05-17","2025-05-25","2025-05","Hidráulica","Técnico",64,"Mixto","Santino Nicolas Sanchez Acosta",True,"97.00",3,"33281.40","Mantenimiento Mecánico","Mecánico Especializado",1
+5425,1446,"2024-12-04","2024-12-11","2024-12","Hidráulica","Gestión",56,"Online","Benjamin Emma Diaz",True,"65.00",4,"12711.99","Mantenimiento Mecánico","Mecánico",1
+5424,1446,"2025-02-17","2025-03-02","2025-03","Hidráulica","Calidad",104,"Mixto","Dr(a). Micaela Campos",True,"99.00",4,"44878.38","Mantenimiento Mecánico","Mecánico",1
+5426,1449,"2024-07-13","2024-07-18","2024-07","Alineación Laser","Seguridad",40,"Presencial","Victoria Sosa",True,"89.00",5,"30131.76","Mantenimiento Mecánico","Mecánico Especializado",1
+5427,1450,"2024-01-12","2024-01-27","2024-01","Neumática","Seguridad",120,"Presencial","Enzo Malena Sosa Sanchez",True,"77.00",4,"38345.88","Mantenimiento Mecánico","Mecánico Especializado",1
+5428,1450,"2024-07-06","2024-07-19","2024-07","Neumática","Técnico",104,"Online","Sr(a). Joaquin Juarez",True,"89.00",4,"29618.01","Mantenimiento Mecánico","Mecánico Especializado",1
+5430,1451,"2024-01-13","2024-01-21","2024-01","Neumática","Gestión",64,"Presencial","Ian Benjamin Paez Roldan",True,"86.00",5,"43638.09","Mantenimiento Mecánico","Mecánico",1
+5429,1451,"2024-08-13","2024-08-26","2024-08","Hidráulica","Seguridad",104,"Online","Alma Mia Valentino Rojas Perez",True,"97.00",2,"27621.63","Mantenimiento Mecánico","Mecánico",1
+5431,1453,"2025-01-06","2025-01-09","2025-01","Neumática","Gestión",24,"Mixto","Nina Silva Vazquez",True,"85.00",4,"10725.18","Mantenimiento Mecánico","Mecánico",1
+5432,1454,"2025-05-07","2025-05-17","2025-05","Hidráulica","Seguridad",80,"Mixto","Mia Morena Nicolas Molina",True,"95.00",3,"42321.15","Mantenimiento Mecánico","Mecánico Especializado",1
+5433,1456,"2024-12-19","2024-12-29","2024-12","Hidráulica","Calidad",80,"Online","Dr(a). Ambar Fernandez",True,"91.00",4,"28403.67","Mantenimiento Mecánico","Mecánico",1
+5434,1458,"2024-03-15","2024-03-26","2024-03","Hidráulica","Técnico",88,"Online","Delfina Ramos",True,"93.00",2,"13860.15","Mantenimiento Mecánico","Mecánico Especializado",1
+5435,1458,"2025-02-17","2025-02-23","2025-02","Hidráulica","Gestión",48,"Online","Valentino Juan Bautista Gomez Torres",True,"70.00",5,"28298.64","Mantenimiento Mecánico","Mecánico Especializado",1
+5436,1461,"2025-05-17","2025-05-22","2025-05","Neumática","Seguridad",40,"Online","Antonella Farias Cordoba",True,"65.00",4,"9900.51","Mantenimiento Mecánico","Mecánico",1
+5438,1462,"2024-08-19","2024-09-03","2024-09","Alineación Laser","Gestión",120,"Online","Joaquin Santino Agustin Dominguez",True,"77.00",2,"26385.99","Mantenimiento Mecánico","Mecánico Especializado",1
+5437,1462,"2024-10-19","2024-10-22","2024-10","Alineación Laser","Calidad",24,"Presencial","Sr(a). Matilda Fernandez",True,"79.00",5,"10708.53","Mantenimiento Mecánico","Mecánico Especializado",1
+5441,1463,"2024-01-08","2024-01-14","2024-01","Neumática","Gestión",48,"Online","Martina Sofia Barrios",True,"100.00",3,"16597.68","Mantenimiento Mecánico","Mecánico Especializado",1
+5439,1463,"2024-05-19","2024-06-01","2024-06","Neumática","Calidad",104,"Online","Abril Pilar Sosa",True,"92.00",3,"14168.43","Mantenimiento Mecánico","Mecánico Especializado",1
+5440,1463,"2025-04-04","2025-04-17","2025-04","Neumática","Técnico",104,"Presencial","Paulina Francisco Perez",True,"69.00",2,"29355.72","Mantenimiento Mecánico","Mecánico Especializado",1
+5442,1464,"2024-11-18","2024-11-29","2024-11","Neumática","Calidad",88,"Online","Francesca Bastian Lucero Gonzalez",True,"94.00",5,"26571.90","Mantenimiento Mecánico","Mecánico Especializado",1
+5443,1466,"2024-04-09","2024-04-23","2024-04","Alineación Laser","Técnico",112,"Mixto","Santino León Godoy Perez",True,"99.00",5,"38131.20","Mantenimiento Mecánico","Mecánico",1
+5445,1467,"2024-05-18","2024-05-23","2024-05","Hidráulica","Gestión",40,"Presencial","Sr(a). Agustina Torres",False,"100.00",5,"26969.10","Mantenimiento Mecánico","Mecánico Especializado",1
+5444,1467,"2024-08-16","2024-08-24","2024-08","Alineación Laser","Seguridad",64,"Presencial","Clara Franco Alvarez Alvarez",True,"84.00",3,"27664.65","Mantenimiento Mecánico","Mecánico Especializado",1
+5446,1468,"2024-09-07","2024-09-19","2024-09","Alineación Laser","Calidad",96,"Presencial","Agustina Benicio Aguero",True,"88.00",2,"31908.60","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5447,1469,"2024-01-10","2024-01-19","2024-01","Hidráulica","Gestión",72,"Mixto","Sol Paez",True,"61.00",2,"40909.35","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5448,1470,"2024-03-06","2024-03-10","2024-03","Neumática","Técnico",32,"Mixto","Juan Bautista Fernandez Lopez",True,"71.00",5,"33363.84","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5450,1471,"2024-03-19","2024-03-27","2024-03","Alineación Laser","Técnico",64,"Presencial","Guadalupe Lucio Gomez",True,"73.00",2,"20668.17","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5449,1471,"2024-08-05","2024-08-18","2024-08","Alineación Laser","Calidad",104,"Mixto","Agustina Garcia Fernandez",False,"86.00",4,"33452.61","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5452,1473,"2024-03-19","2024-04-02","2024-04","Neumática","Seguridad",112,"Online","Jazmin Luna",True,"98.00",5,"37221.18","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5451,1473,"2025-05-02","2025-05-14","2025-05","Neumática","Técnico",96,"Presencial","Renata Ignacio Gomez",True,"99.00",3,"11223.33","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5453,1474,"2024-01-15","2024-01-23","2024-01","Neumática","Seguridad",64,"Online","Benjamin Gonzalez",True,"93.00",2,"12722.61","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5454,1474,"2024-10-19","2024-10-26","2024-10","Neumática","Gestión",56,"Presencial","Sr(a). Valentino Gutierrez",True,"76.00",4,"19374.48","Mantenimiento Mecánico","Team Leader Mantenimiento",2
+5455,1475,"2025-01-02","2025-01-11","2025-01","Neumática","Gestión",72,"Mixto","Sr(a). Isabella Perez",True,"80.00",4,"31528.02","Mantenimiento Mecánico","Supervisor de Mantenimiento",3
+5457,1477,"2024-04-20","2024-04-25","2024-04","Hidráulica","Calidad",40,"Mixto","Enzo Ojeda Paz",True,"90.00",2,"28417.38","Mantenimiento Mecánico","Gerente de Mantenimiento",4
+5456,1477,"2024-05-05","2024-05-15","2024-05","Alineación Laser","Gestión",80,"Presencial","Agustina Lola Martin",True,"96.00",5,"13684.32","Mantenimiento Mecánico","Gerente de Mantenimiento",4
+5458,1478,"2025-02-08","2025-02-13","2025-02","PLC - Programación","Calidad",40,"Presencial","Delfina Juarez Herrera",True,"88.00",5,"35137.11","Mantenimiento Eléctrico","Electricista Industrial",1
+5460,1479,"2025-01-14","2025-01-26","2025-01","Seguridad Eléctrica","Calidad",96,"Presencial","Sr(a). Geronimo Paz",True,"84.00",2,"24974.97","Mantenimiento Eléctrico","Instrumentista",1
+5459,1479,"2025-02-10","2025-02-23","2025-02","Alta Tensión","Técnico",104,"Presencial","Joaquin Rivero",True,"79.00",5,"37773.00","Mantenimiento Eléctrico","Instrumentista",1
+5461,1480,"2024-01-19","2024-01-26","2024-01","Seguridad Eléctrica","Gestión",56,"Online","Julian Bianca Lopez",True,"69.00",2,"36607.14","Mantenimiento Eléctrico","Electricista Industrial",1
+5462,1481,"2024-09-16","2024-09-20","2024-09","Seguridad Eléctrica","Técnico",32,"Presencial","Thiago Gabriel Matias Rodriguez Alvarez",False,"93.00",2,"38020.05","Mantenimiento Eléctrico","Instrumentista",1
+5463,1483,"2024-03-03","2024-03-10","2024-03","Seguridad Eléctrica","Calidad",56,"Mixto","Santino Sofia Mendez",True,"84.00",2,"30303.78","Mantenimiento Eléctrico","Instrumentista",1
+5464,1486,"2024-01-16","2024-01-30","2024-01","Seguridad Eléctrica","Gestión",112,"Online","Dr(a). Ezequiel Juarez",True,"69.00",3,"38272.86","Mantenimiento Eléctrico","Instrumentista",1
+5465,1487,"2025-01-17","2025-01-27","2025-01","PLC - Programación","Técnico",80,"Mixto","Agustin Mora Gonzalez",True,"72.00",2,"34449.93","Mantenimiento Eléctrico","Instrumentista",1
+5466,1488,"2025-01-18","2025-01-25","2025-01","Alta Tensión","Gestión",56,"Presencial","Sr(a). Catalina Dominguez",False,"87.00",2,"28696.17","Mantenimiento Eléctrico","Electricista Industrial",1
+5469,1489,"2024-07-18","2024-07-21","2024-07","Alta Tensión","Gestión",24,"Online","Genaro Flores Acuña",True,"98.00",4,"23658.75","Mantenimiento Eléctrico","Instrumentista",1
+5467,1489,"2024-10-12","2024-10-24","2024-10","Seguridad Eléctrica","Gestión",96,"Online","Sr(a). Alfonsina Ramos",True,"89.00",3,"28799.79","Mantenimiento Eléctrico","Instrumentista",1
+5468,1489,"2025-05-05","2025-05-18","2025-05","Seguridad Eléctrica","Calidad",104,"Mixto","Maximo Torres",True,"79.00",5,"22681.41","Mantenimiento Eléctrico","Instrumentista",1
+5470,1490,"2025-03-04","2025-03-18","2025-03","PLC - Programación","Calidad",112,"Presencial","Francesco Alvarez",True,"76.00",5,"10870.17","Mantenimiento Eléctrico","Electricista Industrial",1
+5471,1492,"2024-04-20","2024-05-03","2024-05","Alta Tensión","Gestión",104,"Presencial","Sr(a). Pedro Perez",True,"69.00",2,"41337.66","Mantenimiento Eléctrico","Instrumentista",1
+5473,1493,"2024-07-19","2024-08-02","2024-08","PLC - Programación","Gestión",112,"Online","Dr(a). Valentina Gonzalez",True,"99.00",5,"22477.44","Mantenimiento Eléctrico","Electricista Industrial",1
+5472,1493,"2025-04-02","2025-04-17","2025-04","Alta Tensión","Seguridad",120,"Online","Nahuel Catalina Luna",True,"62.00",5,"26641.14","Mantenimiento Eléctrico","Electricista Industrial",1
+5474,1494,"2025-02-02","2025-02-08","2025-02","Seguridad Eléctrica","Seguridad",48,"Online","Dante Gomez Gonzalez",True,"98.00",2,"19688.88","Mantenimiento Eléctrico","Instrumentista",1
+5476,1496,"2024-01-05","2024-01-12","2024-01","PLC - Programación","Gestión",56,"Presencial","Pedro Maria Victoria Perez",True,"65.00",3,"40587.36","Mantenimiento Eléctrico","Electricista Industrial",1
+5477,1496,"2024-01-09","2024-01-14","2024-01","Seguridad Eléctrica","Seguridad",40,"Online","Dr(a). Tiziano Cabrera",True,"99.00",2,"17520.00","Mantenimiento Eléctrico","Electricista Industrial",1
+5475,1496,"2024-10-02","2024-10-10","2024-10","Alta Tensión","Técnico",64,"Mixto","Luciano Josefina Torres",False,"72.00",3,"38734.41","Mantenimiento Eléctrico","Electricista Industrial",1
+5479,1497,"2024-03-20","2024-03-25","2024-03","PLC - Programación","Calidad",40,"Mixto","Dr(a). Joaquin Castro",True,"77.00",3,"26593.50","Mantenimiento Eléctrico","Instrumentista",1
+5478,1497,"2025-02-10","2025-02-18","2025-02","PLC - Programación","Gestión",64,"Mixto","Zoe Ramirez",True,"75.00",4,"9641.46","Mantenimiento Eléctrico","Instrumentista",1
+5480,1498,"2025-02-21","2025-02-26","2025-02","Alta Tensión","Gestión",40,"Mixto","Valentina Sanchez",True,"63.00",2,"43719.39","Mantenimiento Eléctrico","Instrumentista",1
+5482,1499,"2024-03-21","2024-03-27","2024-03","PLC - Programación","Técnico",48,"Online","Lautaro Ezequiel Acosta Quiroga",True,"95.00",5,"41741.04","Mantenimiento Eléctrico","Instrumentista",1
+5481,1499,"2025-02-13","2025-02-25","2025-02","PLC - Programación","Gestión",96,"Mixto","Octavio Camila Fernandez Guzman",True,"73.00",3,"26083.02","Mantenimiento Eléctrico","Instrumentista",1
+5483,1500,"2024-03-16","2024-03-19","2024-03","Alta Tensión","Gestión",24,"Online","Santino Bianca Caceres",True,"80.00",3,"19362.90","Mantenimiento Eléctrico","Electricista Industrial",1
+5484,1501,"2024-08-12","2024-08-18","2024-08","Seguridad Eléctrica","Calidad",48,"Online","Sr(a). Mateo Soto",True,"70.00",5,"13806.99","Mantenimiento Eléctrico","Instrumentista",1
+5485,1502,"2024-11-08","2024-11-23","2024-11","Seguridad Eléctrica","Gestión",120,"Mixto","Luciana Paz Herrera",True,"68.00",2,"12233.43","Mantenimiento Eléctrico","Electricista Industrial",1
+5486,1502,"2025-04-06","2025-04-18","2025-04","Alta Tensión","Seguridad",96,"Online","Dr(a). Catalina Perez",True,"71.00",4,"33381.42","Mantenimiento Eléctrico","Electricista Industrial",1
+5487,1504,"2025-01-12","2025-01-15","2025-01","PLC - Programación","Gestión",24,"Presencial","Bautista Martina Alvarez Velazquez",True,"65.00",5,"21433.50","Mantenimiento Eléctrico","Electricista Industrial",1
+5488,1505,"2024-11-05","2024-11-09","2024-11","PLC - Programación","Técnico",32,"Presencial","Dr(a). Luz Milagros Luna",True,"83.00",2,"37854.75","Mantenimiento Eléctrico","Electricista Industrial",1
+5490,1505,"2025-03-17","2025-03-30","2025-03","Alta Tensión","Técnico",104,"Presencial","Dr(a). Santiago Vargas",False,"61.00",2,"28352.10","Mantenimiento Eléctrico","Electricista Industrial",1
+5489,1505,"2025-05-03","2025-05-16","2025-05","Seguridad Eléctrica","Técnico",104,"Online","Santino Benjamin Simon Diaz",True,"61.00",4,"24242.37","Mantenimiento Eléctrico","Electricista Industrial",1
+5492,1506,"2024-04-09","2024-04-18","2024-04","Seguridad Eléctrica","Técnico",72,"Presencial","Emma Benjamin Fernandez Franco",True,"99.00",5,"32850.27","Mantenimiento Eléctrico","Instrumentista",1
+5491,1506,"2024-06-19","2024-06-22","2024-06","Alta Tensión","Gestión",24,"Presencial","Sr(a). Mora Peralta",True,"98.00",3,"26785.56","Mantenimiento Eléctrico","Instrumentista",1
+5493,1507,"2024-03-20","2024-03-24","2024-03","PLC - Programación","Seguridad",32,"Mixto","Benicio Ruiz",True,"99.00",2,"24553.56","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5494,1507,"2024-03-15","2024-03-26","2024-03","Alta Tensión","Técnico",88,"Online","Sr(a). Maximo Ponce",True,"71.00",2,"20758.80","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5495,1508,"2024-01-02","2024-01-14","2024-01","Alta Tensión","Calidad",96,"Mixto","Alma Jazmin Molina Ojeda",True,"65.00",5,"41619.21","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5496,1508,"2024-05-02","2024-05-05","2024-05","Seguridad Eléctrica","Calidad",24,"Online","Dr(a). Lautaro Maldonado",False,"83.00",2,"32495.19","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5497,1509,"2025-04-20","2025-04-23","2025-04","Alta Tensión","Calidad",24,"Presencial","Sofía Santiago Soria",True,"76.00",3,"17095.74","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5498,1510,"2024-06-08","2024-06-15","2024-06","Seguridad Eléctrica","Seguridad",56,"Mixto","Sr(a). Thiago Benjamin Ramirez",True,"71.00",2,"42215.07","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5499,1510,"2024-09-08","2024-09-23","2024-09","Alta Tensión","Seguridad",120,"Online","Lautaro Benjamin Gimenez Romero",True,"100.00",3,"17861.40","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5500,1511,"2024-03-09","2024-03-14","2024-03","Alta Tensión","Gestión",40,"Online","Benjamin Ezequiel Campos Hernandez",True,"60.00",4,"38599.17","Mantenimiento Eléctrico","Team Leader Eléctrico",2
+5501,1512,"2024-08-11","2024-08-21","2024-08","Seguridad Eléctrica","Seguridad",80,"Presencial","Dr(a). Juliana Martin",True,"92.00",2,"13356.51","Mantenimiento Eléctrico","Supervisor de Mantenimiento",3
+5503,1513,"2024-06-11","2024-06-24","2024-06","Capacitación General","Seguridad",104,"Online","Thiago Ezequiel Escobar",True,"89.00",4,"16887.75","Logística","Operario de Almacén",1
+5502,1513,"2025-05-02","2025-05-17","2025-05","Capacitación General","Gestión",120,"Online","Dr(a). Milo Navarro",True,"79.00",4,"16419.09","Logística","Operario de Almacén",1
+5504,1514,"2024-03-18","2024-04-02","2024-04","Capacitación General","Seguridad",120,"Presencial","Jazmin Perez Alvarez",True,"85.00",2,"16365.87","Logística","Chofer",1
+5506,1515,"2024-03-14","2024-03-20","2024-03","Capacitación General","Calidad",48,"Online","Agustina Benjamin Miranda Martinez",True,"88.00",3,"23850.15","Logística","Operario de Almacén",1
+5505,1515,"2024-10-02","2024-10-11","2024-10","Capacitación General","Calidad",72,"Presencial","Amparo Francisco Sanchez",True,"83.00",2,"41340.42","Logística","Operario de Almacén",1
+5507,1517,"2024-01-09","2024-01-16","2024-01","Capacitación General","Gestión",56,"Presencial","Camila Cardozo Romero",True,"75.00",3,"42291.69","Logística","Chofer",1
+5508,1517,"2024-12-21","2025-01-02","2025-01","Capacitación General","Gestión",96,"Presencial","Sr(a). Agustin Sosa",True,"89.00",2,"13682.01","Logística","Chofer",1
+5509,1518,"2024-01-20","2024-02-03","2024-02","Capacitación General","Calidad",112,"Presencial","Dr(a). Joaquin Cardozo",True,"64.00",2,"37041.48","Logística","Operario de Almacén",1
+5510,1518,"2024-07-21","2024-08-03","2024-08","Capacitación General","Técnico",104,"Mixto","Guillermina Sofia Ponce",True,"96.00",5,"21671.01","Logística","Operario de Almacén",1
+5512,1519,"2024-04-19","2024-04-26","2024-04","Capacitación General","Seguridad",56,"Mixto","Fausto Juan Ignacio Rodriguez",True,"73.00",4,"35511.24","Logística","Chofer",1
+5511,1519,"2024-11-14","2024-11-21","2024-11","Capacitación General","Técnico",56,"Online","Sofia Sofia Martinez Rios",True,"62.00",3,"14793.81","Logística","Chofer",1
+5513,1520,"2024-07-09","2024-07-24","2024-07","Capacitación General","Técnico",120,"Mixto","Mora Coronel",True,"70.00",4,"22513.74","Logística","Chofer",1
+5514,1521,"2024-06-02","2024-06-14","2024-06","Capacitación General","Gestión",96,"Mixto","Sr(a). Thiago Leonel Torres",True,"70.00",2,"36712.35","Logística","Chofer",1
+5515,1521,"2024-11-06","2024-11-09","2024-11","Capacitación General","Seguridad",24,"Online","Morena Lucas Ezequiel Escobar Aguero",True,"98.00",3,"12017.04","Logística","Chofer",1
+5516,1523,"2024-07-05","2024-07-12","2024-07","Capacitación General","Gestión",56,"Online","Joaquin Coronel",True,"91.00",3,"9251.79","Logística","Chofer",1
+5517,1523,"2024-07-13","2024-07-25","2024-07","Capacitación General","Seguridad",96,"Online","Dr(a). Camila Cardozo",True,"60.00",2,"35485.83","Logística","Chofer",1
+5518,1525,"2024-05-12","2024-05-17","2024-05","Capacitación General","Seguridad",40,"Mixto","Isabella Lourdes Suarez",True,"84.00",5,"44100.57","Logística","Chofer",1
+5519,1525,"2024-08-19","2024-08-30","2024-08","Capacitación General","Seguridad",88,"Mixto","Sr(a). Juan Bautista Ruiz",True,"69.00",2,"17315.91","Logística","Chofer",1
+5520,1526,"2024-09-04","2024-09-19","2024-09","Capacitación General","Seguridad",120,"Presencial","Facundo Juan Ignacio Gutierrez",True,"61.00",2,"17445.39","Logística","Chofer",1
+5521,1526,"2025-04-19","2025-04-29","2025-04","Capacitación General","Seguridad",80,"Mixto","Luciano Benjamin Diaz Nuñez",True,"72.00",5,"12719.07","Logística","Chofer",1
+5522,1528,"2024-05-19","2024-05-26","2024-05","Capacitación General","Calidad",56,"Online","Guadalupe Morena Jazmin Lopez Perez",True,"92.00",2,"15589.83","Logística","Operario de Almacén",1
+5523,1528,"2025-05-12","2025-05-17","2025-05","Capacitación General","Seguridad",40,"Presencial","Agustin Mora Torres Aguirre",True,"78.00",2,"23548.68","Logística","Operario de Almacén",1
+5524,1528,"2025-05-13","2025-05-27","2025-05","Capacitación General","Calidad",112,"Online","Ciro Gonzalo Torres",True,"85.00",4,"28453.80","Logística","Operario de Almacén",1
+5525,1529,"2024-04-05","2024-04-16","2024-04","Capacitación General","Técnico",88,"Presencial","Victoria Lopez",True,"62.00",4,"14927.73","Logística","Chofer",1
+5527,1530,"2024-07-12","2024-07-25","2024-07","Capacitación General","Seguridad",104,"Mixto","Luciana Lautaro Benjamin Mendez Diaz",True,"84.00",3,"14141.67","Logística","Chofer",1
+5526,1530,"2024-08-02","2024-08-07","2024-08","Capacitación General","Gestión",40,"Mixto","Ema Ramiro Correa",True,"62.00",5,"28864.65","Logística","Chofer",1
+5528,1531,"2024-05-15","2024-05-23","2024-05","Capacitación General","Gestión",64,"Presencial","Agustin Benjamin Flores",True,"91.00",5,"13619.07","Logística","Operario de Almacén",1
+5529,1533,"2024-03-17","2024-03-22","2024-03","Capacitación General","Calidad",40,"Mixto","Jeronimo Juan Francisco Gutierrez",True,"89.00",3,"25818.63","Logística","Chofer",1
+5530,1533,"2024-11-20","2024-12-02","2024-12","Capacitación General","Calidad",96,"Online","Martín Julieta Castro Ortiz",True,"74.00",4,"17155.44","Logística","Chofer",1
+5532,1534,"2024-03-07","2024-03-16","2024-03","Capacitación General","Seguridad",72,"Mixto","Zoe Valentina Agustin Morales",True,"100.00",2,"9841.56","Logística","Operario de Almacén",1
+5531,1534,"2024-09-11","2024-09-21","2024-09","Capacitación General","Gestión",80,"Mixto","Santino Lopez",True,"79.00",2,"30913.20","Logística","Operario de Almacén",1
+5533,1536,"2024-01-15","2024-01-22","2024-01","Capacitación General","Seguridad",56,"Presencial","Maria Emilia Perez",True,"82.00",5,"29273.73","Logística","Chofer",1
+5534,1541,"2024-03-11","2024-03-22","2024-03","Capacitación General","Calidad",88,"Online","Lucas Isabel Perez Gonzalez",True,"81.00",4,"11653.29","Logística","Chofer",1
+5535,1542,"2024-05-06","2024-05-18","2024-05","Capacitación General","Técnico",96,"Online","Lautaro Peralta Juarez",True,"65.00",3,"37316.55","Logística","Team Leader Logística",2
+5537,1543,"2024-04-08","2024-04-23","2024-04","Capacitación General","Gestión",120,"Online","Felicitas Pilar Ponce Paez",True,"89.00",5,"34493.31","Logística","Team Leader Logística",2
+5536,1543,"2025-03-07","2025-03-21","2025-03","Capacitación General","Seguridad",112,"Mixto","Sr(a). Giovanni Garcia",True,"86.00",5,"24961.74","Logística","Team Leader Logística",2
+5539,1544,"2025-02-05","2025-02-09","2025-02","Capacitación General","Seguridad",32,"Online","Joaquina Santino Benjamin Soria",True,"67.00",5,"9650.97","Logística","Team Leader Logística",2
+5538,1544,"2025-05-14","2025-05-20","2025-05","Capacitación General","Gestión",48,"Mixto","Mora Medina",True,"82.00",4,"30230.91","Logística","Team Leader Logística",2
+5540,1545,"2025-05-16","2025-05-23","2025-05","Capacitación General","Seguridad",56,"Mixto","Agustín Silva",True,"88.00",3,"14907.27","Logística","Team Leader Logística",2
+5541,1546,"2024-07-15","2024-07-19","2024-07","Capacitación General","Seguridad",32,"Online","Bautista Romero Sanchez",True,"90.00",5,"13802.13","Logística","Team Leader Logística",2
+5542,1547,"2024-05-19","2024-05-24","2024-05","Capacitación General","Gestión",40,"Online","Paloma Sofía Ruiz Paez",True,"97.00",4,"34559.34","Logística","Supervisor de Logística",3
+5543,1547,"2025-01-07","2025-01-21","2025-01","Capacitación General","Técnico",112,"Mixto","Lautaro Ezequiel Maximo Acosta Lopez",True,"69.00",4,"21367.95","Logística","Supervisor de Logística",3
+5544,1549,"2024-03-11","2024-03-24","2024-03","Capacitación General","Calidad",104,"Presencial","Juan Ignacio Martinez Martinez",True,"82.00",3,"21335.58","RRHH","Administrativo RRHH",1
+5545,1552,"2024-03-10","2024-03-16","2024-03","Capacitación General","Seguridad",48,"Mixto","Sofia Ruiz Gomez",False,"82.00",2,"11037.69","RRHH","Administrativo RRHH",1
+5546,1552,"2024-12-21","2025-01-05","2025-01","Capacitación General","Técnico",120,"Online","Manuel Gonzalez",True,"72.00",4,"33955.47","RRHH","Administrativo RRHH",1
+5547,1553,"2024-04-19","2024-04-25","2024-04","Capacitación General","Calidad",48,"Presencial","Bruno Franco",True,"82.00",3,"24930.81","RRHH","Administrativo RRHH",1
+5548,1554,"2024-03-10","2024-03-22","2024-03","Capacitación General","Gestión",96,"Online","Thiago Benjamin Fernandez Ferreyra",True,"85.00",2,"26736.75","RRHH","Administrativo RRHH",1
+5549,1556,"2024-04-11","2024-04-16","2024-04","Capacitación General","Seguridad",40,"Online","Josefina Martinez",True,"89.00",5,"30140.64","RRHH","Administrativo RRHH",1
+5550,1556,"2024-04-04","2024-04-17","2024-04","Capacitación General","Gestión",104,"Presencial","Simon Juan Ignacio Pereyra Lopez",True,"70.00",4,"20312.10","RRHH","Administrativo RRHH",1
+5551,1557,"2024-01-05","2024-01-10","2024-01","Capacitación General","Técnico",40,"Online","Antonella Guzman Romero",True,"62.00",4,"41647.14","RRHH","Administrativo RRHH",1
+5552,1558,"2024-08-08","2024-08-12","2024-08","Capacitación General","Seguridad",32,"Presencial","Valentin Aguero",True,"98.00",5,"13416.72","RRHH","Administrativo RRHH",1
+5553,1558,"2025-04-15","2025-04-29","2025-04","Capacitación General","Calidad",112,"Mixto","Manuel Valentino Duarte Rojas",False,"65.00",4,"23672.01","RRHH","Administrativo RRHH",1
+5554,1559,"2024-12-10","2024-12-23","2024-12","Capacitación General","Calidad",104,"Mixto","Dr(a). Agustín Godoy",True,"80.00",5,"29695.20","RRHH","Administrativo RRHH",1
+5555,1560,"2024-05-18","2024-05-26","2024-05","Capacitación General","Gestión",64,"Mixto","Dr(a). Bruno Godoy",True,"91.00",4,"30769.98","RRHH","Administrativo RRHH",1
+5556,1560,"2025-05-04","2025-05-15","2025-05","Capacitación General","Técnico",88,"Presencial","Nahuel Jazmin Martinez Gomez",True,"72.00",5,"17402.85","RRHH","Administrativo RRHH",1
+5557,1562,"2024-07-05","2024-07-09","2024-07","Capacitación General","Gestión",32,"Mixto","Guadalupe Thiago Benjamin Sanchez Gonzalez",True,"78.00",4,"20144.55","RRHH","Analista RRHH",2
+5558,1564,"2024-01-10","2024-01-22","2024-01","Capacitación General","Técnico",96,"Presencial","Alma Valentin Gonzalez",True,"73.00",3,"38835.48","Ingeniería","Técnico de Procesos",1
+5559,1564,"2024-03-14","2024-03-18","2024-03","Capacitación General","Técnico",32,"Presencial","Abigail Herrera",True,"85.00",5,"10884.69","Ingeniería","Técnico de Procesos",1
+5560,1564,"2025-01-10","2025-01-17","2025-01","Capacitación General","Seguridad",56,"Presencial","Bautista Benjamin Figueroa Luna",True,"80.00",5,"24844.05","Ingeniería","Técnico de Procesos",1
+5561,1566,"2024-01-14","2024-01-26","2024-01","Capacitación General","Gestión",96,"Presencial","Manuel Lopez Cruz",True,"78.00",3,"29086.20","Ingeniería","Técnico de Procesos",1
+5563,1567,"2024-07-18","2024-07-29","2024-07","Capacitación General","Calidad",88,"Mixto","Milena Diaz",True,"75.00",4,"21359.79","Ingeniería","Técnico de Procesos",1
+5562,1567,"2024-08-03","2024-08-14","2024-08","Capacitación General","Técnico",88,"Online","Camila Lopez",True,"79.00",4,"43606.62","Ingeniería","Técnico de Procesos",1
+5564,1567,"2024-12-09","2024-12-19","2024-12","Capacitación General","Seguridad",80,"Mixto","Ciro Martinez Coronel",True,"84.00",2,"26830.89","Ingeniería","Técnico de Procesos",1
+5565,1568,"2024-01-11","2024-01-26","2024-01","Capacitación General","Técnico",120,"Presencial","Dr(a). Emilia Villalba",True,"73.00",2,"9096.06","Ingeniería","Técnico de Procesos",1
+5567,1570,"2024-03-15","2024-03-27","2024-03","Capacitación General","Gestión",96,"Presencial","Ana Paula Perez",False,"74.00",3,"37798.38","Ingeniería","Técnico de Procesos",1
+5566,1570,"2024-11-02","2024-11-12","2024-11","Capacitación General","Técnico",80,"Online","Renata Elena Lopez Garcia",True,"76.00",5,"27217.68","Ingeniería","Técnico de Procesos",1
+5568,1572,"2024-01-21","2024-01-25","2024-01","Capacitación General","Calidad",32,"Mixto","Dr(a). Santiago Gonzalez",True,"98.00",3,"13212.21","Ingeniería","Técnico de Procesos",1
+5569,1573,"2024-01-20","2024-01-31","2024-01","Capacitación General","Gestión",88,"Mixto","Faustino Gonzalez Valdez",True,"93.00",3,"33181.29","Ingeniería","Técnico de Procesos",1
+5570,1575,"2024-01-15","2024-01-28","2024-01","Capacitación General","Técnico",104,"Mixto","Thiago Benjamin Thiago Agustin Ojeda Martinez",True,"74.00",3,"27713.70","Ingeniería","Técnico de Procesos",1
+5571,1576,"2024-04-08","2024-04-19","2024-04","Capacitación General","Seguridad",88,"Presencial","Benjamin Delfina Flores",True,"89.00",4,"20730.96","Ingeniería","Técnico de Procesos",1
+5572,1576,"2025-03-06","2025-03-16","2025-03","Capacitación General","Calidad",80,"Mixto","Mateo Joaquin Medina",True,"100.00",4,"10012.86","Ingeniería","Técnico de Procesos",1
+5573,1577,"2025-05-16","2025-05-21","2025-05","Capacitación General","Gestión",40,"Mixto","Ignacio Mansilla Duarte",True,"88.00",5,"23622.15","Ingeniería","Técnico de Procesos",1
+5575,1580,"2024-04-02","2024-04-05","2024-04","Capacitación General","Gestión",24,"Presencial","Santiago Maite Maldonado",True,"81.00",5,"27292.50","Ingeniería","Técnico de Procesos",1
+5574,1580,"2025-04-17","2025-04-21","2025-04","Capacitación General","Técnico",32,"Mixto","Thiago Benjamin Ruiz Molina",True,"92.00",3,"30706.74","Ingeniería","Técnico de Procesos",1
+5576,1580,"2025-05-14","2025-05-22","2025-05","Capacitación General","Calidad",64,"Mixto","Juan Ignacio Vazquez Martinez",False,"97.00",3,"23425.44","Ingeniería","Técnico de Procesos",1
+5577,1582,"2024-03-20","2024-04-03","2024-04","Capacitación General","Calidad",112,"Presencial","Emma Toledo",True,"93.00",2,"38225.40","Ingeniería","Técnico de Procesos",1
+5578,1584,"2025-05-19","2025-05-22","2025-05","Capacitación General","Calidad",24,"Presencial","Malena Milo Pereyra",True,"60.00",2,"36075.72","Ingeniería","Ingeniero de Procesos",2
+5579,1585,"2024-06-11","2024-06-25","2024-06","Capacitación General","Calidad",112,"Presencial","Agustin Thiago Ezequiel Sanchez",True,"85.00",2,"18914.25","Ingeniería","Ingeniero de Procesos",2
+5581,1587,"2024-11-17","2024-11-30","2024-11","Capacitación General","Gestión",104,"Mixto","Valentina Godoy Diaz",True,"74.00",4,"14379.96","Ingeniería","Jefe de Ingeniería",3
+5580,1587,"2025-04-11","2025-04-17","2025-04","Capacitación General","Gestión",48,"Presencial","Mateo Sebastian Villalba Molina",True,"93.00",3,"15729.03","Ingeniería","Jefe de Ingeniería",3
+5582,1588,"2024-06-15","2024-06-18","2024-06","Capacitación General","Seguridad",24,"Online","Santino Ezequiel Diaz Gomez",True,"97.00",2,"18292.86","Administración","Administrativo",1
+5583,1590,"2024-07-20","2024-08-04","2024-08","Capacitación General","Técnico",120,"Mixto","Juan Cruz Lopez",True,"78.00",3,"34747.23","Administración","Administrativo",1
+5586,1591,"2024-01-15","2024-01-20","2024-01","Capacitación General","Calidad",40,"Presencial","Valentina Gimenez Castillo",True,"62.00",2,"34324.20","Administración","Administrativo",1
+5585,1591,"2024-05-06","2024-05-17","2024-05","Capacitación General","Calidad",88,"Presencial","Dr(a). Luciano Fernandez",True,"74.00",3,"12709.05","Administración","Administrativo",1
+5584,1591,"2024-11-17","2024-12-01","2024-12","Capacitación General","Seguridad",112,"Online","Maria Victoria Camila Martinez Martin",True,"80.00",4,"31691.91","Administración","Administrativo",1
+5587,1592,"2024-03-08","2024-03-13","2024-03","Capacitación General","Gestión",40,"Presencial","Isabel Máximo Morales Rodriguez",True,"79.00",4,"37740.90","Administración","Administrativo",1
+5588,1593,"2024-04-06","2024-04-13","2024-04","Capacitación General","Técnico",56,"Presencial","Constanza Sol Gomez",True,"99.00",4,"27155.31","Administración","Administrativo",1
+5589,1594,"2024-10-16","2024-10-22","2024-10","Capacitación General","Gestión",48,"Online","Josefina Lautaro Benjamin Moreno",True,"85.00",2,"28568.25","Administración","Administrativo",1
+5590,1594,"2024-11-03","2024-11-08","2024-11","Capacitación General","Seguridad",40,"Online","Luciana Simon Lopez Ledesma",True,"97.00",2,"18570.54","Administración","Administrativo",1
+5592,1596,"2024-01-17","2024-01-20","2024-01","Capacitación General","Gestión",24,"Mixto","Dr(a). Juan Pablo Aguirre",True,"95.00",3,"26071.89","Administración","Administrativo",1
+5591,1596,"2024-07-12","2024-07-18","2024-07","Capacitación General","Calidad",48,"Online","Lisandro Valentina Gonzalez Vega",True,"67.00",5,"44161.59","Administración","Administrativo",1
+5593,1597,"2024-01-05","2024-01-13","2024-01","Capacitación General","Gestión",64,"Online","Sr(a). Juan Pablo Sanchez",False,"89.00",4,"34833.24","Administración","Administrativo",1
+5594,1597,"2024-03-05","2024-03-16","2024-03","Capacitación General","Calidad",88,"Mixto","Victoria Rivero",True,"97.00",2,"21865.20","Administración","Administrativo",1
+5595,1598,"2024-09-11","2024-09-14","2024-09","Capacitación General","Técnico",24,"Presencial","Sr(a). Bautista Fernandez",True,"80.00",5,"27378.33","Administración","Administrativo",1
+5596,1599,"2024-03-08","2024-03-11","2024-03","Capacitación General","Seguridad",24,"Presencial","Sara Juan Pablo Acosta Ramos",False,"88.00",3,"42514.86","Administración","Administrativo",1
+5597,1600,"2024-11-09","2024-11-15","2024-11","Capacitación General","Técnico",48,"Presencial","Dr(a). Maria Paz Cruz",True,"89.00",4,"32915.10","Administración","Administrativo",1
+5598,1602,"2024-07-08","2024-07-18","2024-07","Capacitación General","Gestión",80,"Online","Dr(a). Octavio Martinez",True,"80.00",2,"9761.04","Administración","Analista",2
+600,1604,"2024-01-15","2024-01-20","2024-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.78",5,"150000.00","Estampado","Operario Prensa",1
+601,1605,"2024-02-01","2024-02-06","2024-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"88.95",3,"150000.00","Estampado","Operario Prensa",1
+602,1606,"2024-02-15","2024-02-20","2024-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.45",3,"150000.00","Ensamble","Operario Ensamble",1
+603,1607,"2024-03-01","2024-03-06","2024-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"89.73",3,"150000.00","Ensamble","Operario Ensamble",1
+604,1608,"2024-03-15","2024-03-20","2024-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"83.41",5,"150000.00","Calidad","Inspector de Calidad",1
+605,1608,"2024-03-30","2024-04-04","2024-03","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"92.70",5,"200000.00","Calidad","Inspector de Calidad",1
+606,1609,"2024-03-20","2024-03-25","2024-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"82.44",5,"150000.00","Estampado","Operario Prensa",1
+607,1610,"2024-04-01","2024-04-06","2024-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"93.93",4,"150000.00","Estampado","Operario Prensa",1
+608,1611,"2024-04-15","2024-04-20","2024-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"70.03",5,"150000.00","Estampado","Operario Prensa",1
+609,1612,"2024-04-20","2024-04-25","2024-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"93.71",3,"150000.00","Ensamble","Soldador Junior",1
+610,1612,"2024-06-19","2024-07-19","2024-06","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"72.51",4,"800000.00","Ensamble","Soldador Junior",1
+611,1613,"2024-05-01","2024-05-06","2024-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"91.49",5,"150000.00","Ensamble","Soldador Junior",1
+612,1613,"2024-06-30","2024-07-30","2024-07","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"77.88",4,"800000.00","Ensamble","Soldador Junior",1
+613,1614,"2024-05-10","2024-05-15","2024-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.79",4,"150000.00","Mantenimiento Mecánico","Mecánico Junior",1
+614,1615,"2024-05-15","2024-05-20","2024-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"92.17",4,"150000.00","Mantenimiento Mecánico","Mecánico Junior",1
+615,1616,"2024-05-20","2024-05-25","2024-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"74.00",4,"150000.00","Ensamble","Operario Ensamble",1
+616,1617,"2024-06-01","2024-06-06","2024-06","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.70",3,"150000.00","Estampado","Operario Prensa",1
+617,1618,"2024-06-10","2024-06-15","2024-06","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.17",5,"150000.00","Estampado","Operario Prensa",1
+618,1619,"2024-06-15","2024-06-20","2024-06","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"80.86",5,"150000.00","Ensamble","Soldador Junior",1
+619,1619,"2024-08-14","2024-09-13","2024-08","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"72.06",4,"800000.00","Ensamble","Soldador Junior",1
+620,1620,"2024-06-20","2024-06-25","2024-06","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"80.77",5,"150000.00","Ensamble","Soldador Junior",1
+621,1620,"2024-08-19","2024-09-18","2024-08","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"78.73",4,"800000.00","Ensamble","Soldador Junior",1
+622,1621,"2024-07-01","2024-07-06","2024-07","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"75.69",5,"150000.00","Calidad","Inspector de Calidad",1
+623,1621,"2024-07-16","2024-07-21","2024-07","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"93.64",5,"200000.00","Calidad","Inspector de Calidad",1
+624,1622,"2024-07-05","2024-07-10","2024-07","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"89.86",4,"150000.00","Calidad","Inspector de Calidad",1
+625,1622,"2024-07-20","2024-07-25","2024-07","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"80.75",5,"200000.00","Calidad","Inspector de Calidad",1
+626,1623,"2024-07-10","2024-07-15","2024-07","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"88.85",3,"150000.00","Calidad","Inspector de Calidad",1
+627,1623,"2024-07-25","2024-07-30","2024-07","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"84.43",5,"200000.00","Calidad","Inspector de Calidad",1
+628,1624,"2024-07-15","2024-07-20","2024-07","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"71.52",4,"150000.00","Calidad","Analista de Calidad",2
+629,1624,"2024-07-30","2024-08-04","2024-07","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"80.93",5,"200000.00","Calidad","Analista de Calidad",2
+630,1625,"2024-08-01","2024-08-06","2024-08","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"92.96",3,"150000.00","Calidad","Inspector de Calidad",1
+631,1625,"2024-08-16","2024-08-21","2024-08","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"86.67",5,"200000.00","Calidad","Inspector de Calidad",1
+632,1626,"2024-08-10","2024-08-15","2024-08","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.79",3,"150000.00","Calidad","Inspector de Calidad",1
+633,1626,"2024-08-25","2024-08-30","2024-08","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"85.56",5,"200000.00","Calidad","Inspector de Calidad",1
+634,1627,"2024-08-15","2024-08-20","2024-08","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"83.72",4,"150000.00","Calidad","Inspector de Calidad",1
+635,1627,"2024-08-30","2024-09-04","2024-08","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"85.86",5,"200000.00","Calidad","Inspector de Calidad",1
+636,1628,"2024-09-01","2024-09-06","2024-09","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"94.43",3,"150000.00","Calidad","Inspector de Calidad",1
+637,1628,"2024-09-16","2024-09-21","2024-09","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"87.47",5,"200000.00","Calidad","Inspector de Calidad",1
+638,1629,"2024-07-20","2024-07-25","2024-07","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"74.14",4,"150000.00","Estampado","Operario Prensa",1
+639,1630,"2024-08-05","2024-08-10","2024-08","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"79.66",5,"150000.00","Ensamble","Operario Ensamble",1
+640,1631,"2024-08-20","2024-08-25","2024-08","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.14",4,"150000.00","Pintura","Operario Pintura",1
+641,1632,"2024-09-05","2024-09-10","2024-09","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"74.88",4,"150000.00","Estampado","Operario Prensa",1
+642,1633,"2024-09-15","2024-09-20","2024-09","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.93",3,"150000.00","Ensamble","Operario Ensamble",1
+643,1634,"2024-07-25","2024-07-30","2024-07","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.47",5,"150000.00","Estampado","Operario Prensa",1
+644,1635,"2024-08-25","2024-08-30","2024-08","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"92.88",4,"150000.00","Estampado","Operario Prensa",1
+645,1636,"2024-09-20","2024-09-25","2024-09","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"78.36",5,"150000.00","Estampado","Operario Prensa",1
+646,1637,"2024-10-01","2024-10-06","2024-10","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"91.64",5,"150000.00","Calidad","Inspector de Calidad",1
+647,1637,"2024-10-16","2024-10-21","2024-10","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"81.89",5,"200000.00","Calidad","Inspector de Calidad",1
+648,1638,"2024-10-10","2024-10-15","2024-10","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"72.04",3,"150000.00","Calidad","Inspector de Calidad",1
+649,1638,"2024-10-25","2024-10-30","2024-10","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"89.93",5,"200000.00","Calidad","Inspector de Calidad",1
+650,1639,"2024-10-20","2024-10-25","2024-10","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"70.64",4,"150000.00","Calidad","Analista de Calidad",2
+651,1639,"2024-11-04","2024-11-09","2024-10","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"84.61",5,"200000.00","Calidad","Analista de Calidad",2
+652,1640,"2024-11-01","2024-11-06","2024-11","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"80.37",4,"150000.00","Calidad","Inspector de Calidad",1
+653,1640,"2024-11-16","2024-11-21","2024-11","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"89.21",5,"200000.00","Calidad","Inspector de Calidad",1
+654,1641,"2024-11-10","2024-11-15","2024-11","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"81.74",4,"150000.00","Calidad","Inspector de Calidad",1
+655,1641,"2024-11-25","2024-11-30","2024-11","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"88.71",5,"200000.00","Calidad","Inspector de Calidad",1
+656,1642,"2024-12-01","2024-12-06","2024-12","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"79.67",4,"150000.00","Calidad","Inspector de Calidad",1
+657,1642,"2024-12-16","2024-12-21","2024-12","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"85.78",5,"200000.00","Calidad","Inspector de Calidad",1
+658,1643,"2024-10-15","2024-10-20","2024-10","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"81.49",4,"150000.00","Ensamble","Soldador Junior",1
+659,1643,"2024-12-14","2025-01-13","2024-12","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"76.04",4,"800000.00","Ensamble","Soldador Junior",1
+660,1644,"2024-11-05","2024-11-10","2024-11","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"72.04",5,"150000.00","Ensamble","Soldador Junior",1
+661,1644,"2025-01-04","2025-02-03","2025-01","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"80.85",4,"800000.00","Ensamble","Soldador Junior",1
+662,1645,"2024-11-15","2024-11-20","2024-11","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"83.65",3,"150000.00","Ensamble","Soldador Junior",1
+663,1645,"2025-01-14","2025-02-13","2025-01","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"82.88",4,"800000.00","Ensamble","Soldador Junior",1
+664,1646,"2024-12-10","2024-12-15","2024-12","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"73.48",4,"150000.00","Ensamble","Soldador Junior",1
+665,1646,"2025-02-08","2025-03-10","2025-02","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"83.67",4,"800000.00","Ensamble","Soldador Junior",1
+666,1647,"2024-10-25","2024-10-30","2024-10","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"74.62",4,"150000.00","Ensamble","Operario Ensamble",1
+667,1648,"2024-11-20","2024-11-25","2024-11","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"93.10",3,"150000.00","Ensamble","Operario Ensamble",1
+668,1649,"2024-12-15","2024-12-20","2024-12","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"81.12",3,"150000.00","Ensamble","Operario Ensamble",1
+669,1650,"2025-01-10","2025-01-15","2025-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.06",5,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+670,1650,"2025-02-09","2025-02-24","2025-02","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"80.82",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+671,1651,"2025-01-20","2025-01-25","2025-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"83.31",4,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+672,1651,"2025-02-19","2025-03-06","2025-02","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"85.89",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+673,1652,"2025-02-15","2025-02-20","2025-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"88.52",5,"150000.00","Mantenimiento Eléctrico","Técnico Eléctrico",2
+674,1652,"2025-03-17","2025-04-01","2025-03","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"76.28",4,"500000.00","Mantenimiento Eléctrico","Técnico Eléctrico",2
+675,1653,"2025-01-05","2025-01-10","2025-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.37",5,"150000.00","Estampado","Operario Prensa",1
+676,1654,"2025-01-15","2025-01-20","2025-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.07",3,"150000.00","Ensamble","Operario Ensamble",1
+677,1655,"2025-02-01","2025-02-06","2025-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"94.92",3,"150000.00","Pintura","Operario Pintura",1
+678,1656,"2025-02-10","2025-02-15","2025-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.27",5,"150000.00","Estampado","Operario Prensa",1
+679,1657,"2025-03-01","2025-03-06","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"70.35",5,"150000.00","Ensamble","Operario Ensamble",1
+680,1658,"2025-03-10","2025-03-15","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"81.14",4,"150000.00","Estampado","Operario Prensa",1
+681,1659,"2025-01-25","2025-01-30","2025-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.93",5,"150000.00","Estampado","Operario Prensa",1
+682,1660,"2025-02-05","2025-02-10","2025-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.52",4,"150000.00","Estampado","Operario Prensa",1
+683,1661,"2025-02-20","2025-02-25","2025-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.68",3,"150000.00","Estampado","Operario Prensa",1
+684,1662,"2025-03-05","2025-03-10","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"79.06",4,"150000.00","Estampado","Operario Prensa",1
+685,1663,"2025-03-15","2025-03-20","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"71.22",4,"150000.00","Estampado","Operario Prensa",1
+686,1664,"2025-03-20","2025-03-25","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"89.54",4,"150000.00","Estampado","Operario Prensa",1
+687,1665,"2025-03-25","2025-03-30","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"77.74",5,"150000.00","Estampado","Team Lead Prensa",2
+688,1666,"2025-03-28","2025-04-02","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"78.85",3,"150000.00","Estampado","Operario Prensa",1
+689,1667,"2025-01-30","2025-02-04","2025-01","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"90.14",3,"150000.00","Ensamble","Operario Ensamble",1
+690,1668,"2025-02-25","2025-03-02","2025-02","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"76.22",4,"150000.00","Ensamble","Soldador Junior",1
+691,1668,"2025-04-26","2025-05-26","2025-04","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"76.26",4,"800000.00","Ensamble","Soldador Junior",1
+692,1669,"2025-03-12","2025-03-17","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"71.32",4,"150000.00","Ensamble","Operario Ensamble",1
+693,1670,"2025-03-18","2025-03-23","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"85.78",5,"150000.00","Ensamble","Soldador Junior",1
+694,1670,"2025-05-17","2025-06-16","2025-05","Soldadura MIG/TIG Básica","Técnica",60,"Presencial","Master Welder Team",True,"71.64",4,"800000.00","Ensamble","Soldador Junior",1
+695,1671,"2025-03-30","2025-04-04","2025-03","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"91.10",5,"150000.00","Ensamble","Operario Ensamble",1
+696,1672,"2025-04-01","2025-04-06","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.53",5,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+697,1672,"2025-05-01","2025-05-16","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"88.98",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+698,1673,"2025-04-05","2025-04-10","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"94.47",5,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+699,1673,"2025-05-05","2025-05-20","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"78.10",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+700,1674,"2025-04-10","2025-04-15","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"87.84",4,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+701,1674,"2025-05-10","2025-05-25","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"76.90",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+702,1675,"2025-04-15","2025-04-20","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"82.30",3,"150000.00","Mantenimiento Eléctrico","Técnico Eléctrico",2
+703,1675,"2025-05-15","2025-05-30","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"88.77",4,"500000.00","Mantenimiento Eléctrico","Técnico Eléctrico",2
+704,1676,"2025-04-20","2025-04-25","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"71.92",3,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+705,1676,"2025-05-20","2025-06-04","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"75.32",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+706,1677,"2025-04-25","2025-04-30","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"78.04",4,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+707,1677,"2025-05-25","2025-06-09","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"76.91",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+708,1678,"2025-04-28","2025-05-03","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"72.80",5,"150000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+709,1678,"2025-05-28","2025-06-12","2025-05","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"87.03",4,"500000.00","Mantenimiento Eléctrico","Electricista Industrial",1
+710,1679,"2025-05-01","2025-05-06","2025-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"88.64",5,"150000.00","Mantenimiento Eléctrico","Electricista Senior",2
+711,1679,"2025-05-31","2025-06-15","2025-06","Certificación Eléctrica Básica","Técnica",40,"Presencial","Ing. Carlos Mendez",True,"77.04",4,"500000.00","Mantenimiento Eléctrico","Electricista Senior",2
+712,1680,"2025-04-03","2025-04-08","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"79.00",4,"150000.00","Estampado","Operario Prensa",1
+713,1681,"2025-04-08","2025-04-13","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"73.84",5,"150000.00","Estampado","Operario Prensa",1
+714,1682,"2025-04-12","2025-04-17","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"74.35",5,"150000.00","Estampado","Operario Prensa",1
+715,1683,"2025-04-18","2025-04-23","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"75.19",3,"150000.00","Estampado","Operario Prensa",1
+716,1684,"2025-04-22","2025-04-27","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.77",3,"150000.00","Estampado","Operario Prensa",1
+717,1685,"2025-04-26","2025-05-01","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"89.06",3,"150000.00","Estampado","Team Lead Prensa",2
+718,1686,"2025-04-30","2025-05-05","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"78.92",5,"150000.00","Estampado","Operario Prensa",1
+719,1687,"2025-05-01","2025-05-06","2025-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"81.49",4,"150000.00","Estampado","Operario Prensa",1
+720,1688,"2025-05-01","2025-05-06","2025-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"83.07",4,"150000.00","Estampado","Operario Prensa",1
+721,1689,"2025-05-01","2025-05-06","2025-05","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"80.90",4,"150000.00","Estampado","Operario Prensa",1
+722,1690,"2025-04-07","2025-04-12","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"71.59",4,"150000.00","Calidad","Inspector de Calidad",1
+723,1690,"2025-04-22","2025-04-27","2025-04","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"89.06",5,"200000.00","Calidad","Inspector de Calidad",1
+724,1691,"2025-04-14","2025-04-19","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"88.19",5,"150000.00","Calidad","Inspector de Calidad",1
+725,1691,"2025-04-29","2025-05-04","2025-04","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"87.24",5,"200000.00","Calidad","Inspector de Calidad",1
+726,1692,"2025-04-21","2025-04-26","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"86.46",3,"150000.00","Calidad","Analista de Calidad",2
+727,1692,"2025-05-06","2025-05-11","2025-04","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"84.19",5,"200000.00","Calidad","Analista de Calidad",2
+728,1693,"2025-04-29","2025-05-04","2025-04","Inducción General","Onboarding",16,"Presencial","RRHH Team",True,"71.53",4,"150000.00","Calidad","Inspector de Calidad",1
+729,1693,"2025-05-14","2025-05-19","2025-04","ISO 9001 Básico","Calidad",16,"Mixta","Quality Team",True,"89.10",5,"200000.00","Calidad","Inspector de Calidad",1
