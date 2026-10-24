@@ -136,6 +136,8 @@ Simply double-click or serve `dashboard_ejecutivo.html` in any web browser.
 ---
 
 ## 👤 Author & Contact
-* **Specialization:** Decision Science, People Analytics & Machine Learning
-* **Focus:** Data-driven operational turnarounds, econometric modeling, and executive storytelling.
+* **Author:** Nicolás Carello Laje
+* **GitHub Repository:** [Nicocarello/industrial-safety-operations-ml](https://github.com/Nicocarello/industrial-safety-operations-ml)
+* **Specialization:** Data Analyst | Data Scientist | Machine Learning
+* **Focus:** Data-driven operational turnarounds, econometric modeling, industrial analytics, and executive storytelling.
 * **Portfolio Showcase:** Ready for deployment and live board presentations.
